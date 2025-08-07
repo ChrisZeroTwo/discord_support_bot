@@ -2,24 +2,21 @@ import os
 import sqlite3
 import json
 import tiktoken
-import openai
-from config import OPENAI_API_KEY
-import nltk
-from nltk.tokenize import sent_tokenize
+import numpy as np
+from config import OPENAI_CLIENT
 
-# WICHTIG: Falls nltk Punktsegmentierung noch fehlt:
-nltk.download('punkt')
-
-openai.api_key = OPENAI_API_KEY
+# Embedding-Modell
+EMBEDDING_MODEL = "text-embedding-ada-002"
+# Token-Limit pro Chunk
+CHUNK_TOKEN_LIMIT = 500
+# Überlappung der Chunks in Tokens
+CHUNK_OVERLAP = 50
 
 DOCUMENTS_DIR = "dokumente"
 DATA_DIR = "data"
 DATABASE_PATH = os.path.join(DATA_DIR, "knowledge.db")
-
-# Embedding-Modell
-EMBEDDING_MODEL = "text-embedding-ada-002"
-# Token-Limit pro Chunk (ca. 500–700 Tokens)
-CHUNK_TOKEN_LIMIT = 600
+EMBEDDINGS_PATH = os.path.join(DATA_DIR, "embeddings.npy")
+CHUNKS_PATH = os.path.join(DATA_DIR, "chunks.json")
 
 def get_db():
     if not os.path.exists(DATA_DIR):
@@ -48,49 +45,54 @@ def create_tables():
         conn.commit()
 
 def read_txt_file(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8", errors='ignore') as f:
         return f.read()
 
 def read_json_file(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8", errors='ignore') as f:
         data = json.load(f)
         return json.dumps(data, ensure_ascii=False, indent=2)
 
-def tokenize_text(text):
-    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
-    return encoding.encode(text)
-
 def split_into_chunks(text):
-    sentences = sent_tokenize(text)
+    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+    tokens = encoding.encode(text)
+
+    if not tokens:
+        return []
+
     chunks = []
-    current_chunk = ""
-    current_tokens = 0
+    start = 0
+    while start < len(tokens):
+        end = start + CHUNK_TOKEN_LIMIT
+        chunk_tokens = tokens[start:end]
+        chunk_text = encoding.decode(chunk_tokens)
+        chunks.append(chunk_text.strip())
 
-    for sentence in sentences:
-        sentence_tokens = len(tokenize_text(sentence))
-        if current_tokens + sentence_tokens > CHUNK_TOKEN_LIMIT:
-            if current_chunk:
-                chunks.append(current_chunk.strip())
-            current_chunk = sentence
-            current_tokens = sentence_tokens
-        else:
-            current_chunk += " " + sentence
-            current_tokens += sentence_tokens
-
-    if current_chunk:
-        chunks.append(current_chunk.strip())
+        start += CHUNK_TOKEN_LIMIT - CHUNK_OVERLAP
 
     return chunks
 
-def embed_text(text):
-    response = openai.embeddings.create(
-        model=EMBEDDING_MODEL,
-        input=[text]
-    )
-    return response.data[0].embedding
+def embed_text_batch(texts):
+    if not OPENAI_CLIENT:
+        raise Exception("OpenAI Client ist nicht initialisiert. Bitte setze den OPENAI_API_KEY.")
+
+    batch_size = 1000
+    all_embeddings = []
+    for i in range(0, len(texts), batch_size):
+        batch = texts[i:i + batch_size]
+        response = OPENAI_CLIENT.embeddings.create(
+            model=EMBEDDING_MODEL,
+            input=batch
+        )
+        all_embeddings.extend([item.embedding for item in response.data])
+    return all_embeddings
 
 
 def process_files():
+    if not OPENAI_CLIENT:
+        print("❌ OpenAI Client nicht initialisiert. Der Import wird übersprungen.")
+        return
+
     create_tables()
 
     with get_db() as conn:
@@ -101,36 +103,43 @@ def process_files():
     file_list = os.listdir(DOCUMENTS_DIR)
     file_list = [f for f in file_list if f.lower().endswith(('.txt', '.json'))]
 
+    all_chunks_text = []
+
     for filename in file_list:
         filepath = os.path.join(DOCUMENTS_DIR, filename)
-
+        print(f"🔄 Verarbeite: {filename}...")
         try:
             if filename.endswith(".txt"):
                 text = read_txt_file(filepath)
             elif filename.endswith(".json"):
                 text = read_json_file(filepath)
             else:
-                print(f"❌ Ignoriere unbekannten Dateityp: {filename}")
                 continue
 
             chunks = split_into_chunks(text)
-
-            with get_db() as conn:
-                cursor = conn.execute("INSERT INTO documents (document_name) VALUES (?)", (filename,))
-                document_id = cursor.lastrowid
-
-                for chunk in chunks:
-                    embedding = embed_text(chunk)
-                    conn.execute(
-                        "INSERT INTO chunks (document_id, chunk_text, embedding) VALUES (?, ?, ?)",
-                        (document_id, chunk, json.dumps(embedding))
-                    )
-                conn.commit()
-
+            if chunks:
+                all_chunks_text.extend(chunks)
             print(f"✅ Verarbeitet: {filename} ({len(chunks)} Chunks)")
 
         except Exception as e:
             print(f"❌ Fehler beim Verarbeiten von {filename}: {e}")
+
+    if all_chunks_text:
+        print(f"\n🧠 Erstelle Embeddings für {len(all_chunks_text)} Chunks...")
+        all_embeddings = embed_text_batch(all_chunks_text)
+
+        print("\n💾 Speichere Vektor-Index-Dateien...")
+        embeddings_array = np.array(all_embeddings, dtype=np.float32)
+
+        np.save(EMBEDDINGS_PATH, embeddings_array)
+
+        with open(CHUNKS_PATH, 'w', encoding='utf-8') as f:
+            json.dump(all_chunks_text, f, ensure_ascii=False, indent=2)
+
+        print(f"✅ Vektor-Index gespeichert unter {EMBEDDINGS_PATH} und {CHUNKS_PATH}")
+    else:
+        print("\n⚠️ Keine Chunks zum Erstellen von Embeddings gefunden.")
+
 
 if __name__ == "__main__":
     process_files()

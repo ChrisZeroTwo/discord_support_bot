@@ -8,12 +8,14 @@ def get_db():
 
 def create_tables():
     with get_db() as conn:
+        # Threads-Tabelle: user_id und guild_id als Primärschlüssel
         conn.execute("""
             CREATE TABLE IF NOT EXISTS threads (
-                user_id TEXT PRIMARY KEY,
+                user_id TEXT NOT NULL,
+                guild_id INTEGER NOT NULL,
                 discord_thread_id INTEGER,
                 openai_thread_id TEXT,
-                guild_id INTEGER
+                PRIMARY KEY (user_id, guild_id)
             )
         """)
         conn.execute("""
@@ -30,6 +32,34 @@ def create_tables():
                 helpful INTEGER DEFAULT 0,
                 unclear INTEGER DEFAULT 0,
                 bad INTEGER DEFAULT 0
+            )
+        """)
+        # Neue Tabelle für das Tracking von Interaktionen (für Feedback)
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS interactions (
+                bot_message_id INTEGER PRIMARY KEY,
+                user_id INTEGER NOT NULL,
+                thread_id INTEGER NOT NULL,
+                question TEXT NOT NULL,
+                bot_response TEXT NOT NULL,
+                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        # Neue Tabelle für das Tracking von Setup-Prozessen
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS setup_sessions (
+                user_id INTEGER PRIMARY KEY,
+                guild_id INTEGER NOT NULL,
+                current_step TEXT,
+                started_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        # Neue Tabelle für gemeldete Interaktionen
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS reported_interactions (
+                bot_message_id INTEGER PRIMARY KEY,
+                reported_by_user_id INTEGER NOT NULL,
+                reported_at DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         """)
         conn.commit()

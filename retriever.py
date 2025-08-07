@@ -1,50 +1,72 @@
-import sqlite3
+import os
 import json
 import numpy as np
-import openai
-from config import OPENAI_API_KEY
+from config import OPENAI_CLIENT
 
-openai.api_key = OPENAI_API_KEY
-
-DATABASE_PATH = "data/knowledge.db"
+# --- Konfiguration ---
+DATA_DIR = "data"
+EMBEDDINGS_PATH = os.path.join(DATA_DIR, "embeddings.npy")
+CHUNKS_PATH = os.path.join(DATA_DIR, "chunks.json")
 EMBEDDING_MODEL = "text-embedding-ada-002"
-TOP_K = 5  # Anzahl der besten Treffer
+TOP_K = 5
 
-def get_db():
-    conn = sqlite3.connect(DATABASE_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+# --- Globale Variablen für den Index ---
+knowledge_embeddings = None
+knowledge_chunks = []
+
+def load_knowledge_base():
+    """Lädt die Wissensdatenbank aus den Index-Dateien."""
+    global knowledge_embeddings, knowledge_chunks
+    try:
+        if os.path.exists(EMBEDDINGS_PATH) and os.path.exists(CHUNKS_PATH):
+            knowledge_embeddings = np.load(EMBEDDINGS_PATH)
+            with open(CHUNKS_PATH, 'r', encoding='utf-8') as f:
+                knowledge_chunks = json.load(f)
+            print(f"✅ Wissensdatenbank geladen: {len(knowledge_chunks)} Chunks.")
+        else:
+            print("⚠️ Warnung: Index-Dateien nicht gefunden. Die Wissenssuche ist deaktiviert.")
+            knowledge_chunks = []
+            knowledge_embeddings = None
+    except Exception as e:
+        print(f"❌ Fehler beim Laden der Wissensdatenbank: {e}")
+        knowledge_chunks = []
+        knowledge_embeddings = None
 
 def embed_text(text):
-    response = openai.embeddings.create(
-        model=EMBEDDING_MODEL,
-        input=[text]
-    )
+    """Erstellt ein Embedding für einen einzelnen Text."""
+    if not OPENAI_CLIENT:
+        return None
+    response = OPENAI_CLIENT.embeddings.create(model=EMBEDDING_MODEL, input=[text])
     return response.data[0].embedding
 
-def cosine_similarity(a, b):
-    a = np.array(a)
-    b = np.array(b)
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+def cosine_similarity_vectorized(vec, matrix):
+    """Berechnet die Kosinusähnlichkeit zwischen einem Vektor und jeder Zeile einer Matrix."""
+    dot_product = np.dot(matrix, vec)
+    matrix_norms = np.linalg.norm(matrix, axis=1)
+    vec_norm = np.linalg.norm(vec)
+
+    if vec_norm == 0 or np.any(matrix_norms == 0):
+        return np.zeros(matrix.shape[0])
+
+    return dot_product / (matrix_norms * vec_norm)
 
 def find_relevant_chunks(question):
+    """Findet die relevantesten Chunks mithilfe des In-Memory-Vektor-Index."""
+    if knowledge_embeddings is None or not knowledge_chunks or not OPENAI_CLIENT:
+        return []
+
     question_embedding = embed_text(question)
+    if question_embedding is None:
+        return []
 
-    with get_db() as conn:
-        chunks = conn.execute("SELECT chunk_text, embedding FROM chunks").fetchall()
+    similarities = cosine_similarity_vectorized(question_embedding, knowledge_embeddings)
 
-    scored_chunks = []
+    top_k_indices = np.argpartition(similarities, -TOP_K)[-TOP_K:]
+    top_k_indices_sorted = top_k_indices[np.argsort(similarities[top_k_indices])][::-1]
 
-    for chunk in chunks:
-        chunk_text = chunk["chunk_text"]
-        chunk_embedding = json.loads(chunk["embedding"])
-        similarity = cosine_similarity(question_embedding, chunk_embedding)
-        scored_chunks.append((similarity, chunk_text))
+    relevant_chunks = [knowledge_chunks[i] for i in top_k_indices_sorted]
 
-    # Sortiere nach Ähnlichkeit, absteigend
-    scored_chunks.sort(key=lambda x: x[0], reverse=True)
+    return relevant_chunks
 
-    # Hole die Top K Treffer
-    top_chunks = [chunk_text for _, chunk_text in scored_chunks[:TOP_K]]
-
-    return top_chunks
+# Lade die Wissensdatenbank beim ersten Import des Moduls
+load_knowledge_base()
