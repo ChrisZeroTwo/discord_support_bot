@@ -1,0 +1,17 @@
+## 1. Überblick
+- **Mod-Name:** AnimatedDynamicHelicopters  
+- **Kurzbeschreibung:** Fügt dynamische, animierte Helikopterabsturz-Events hinzu. Helikopter spawnen zufällig am Kartenrand, fliegen zu einem Absturzpunkt und können von Spielern abgeschossen werden.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Dynamische Helikopterabstürze:** Helikopter spawnen bei einem Event am Kartenrand und fliegen zu einem vorher festgelegten oder zufällig generierten Absturzort.  
+- **Frühzeitiges Abschießen:** Spieler können den Helikopter im Flug abschießen, um den Absturz zu beschleunigen und Loot früher zu erhalten.  
+- **Physikalischer Crash:** Der Helikopter kollidiert realistisch mit der Umgebung (knockt Bäume um) und bleibt nicht stecken.  
+- **Loot & Gegner:** An Absturzstellen spawnen anpassbare Loot-Pakete und (bei aktiviertem Expansion AI) KI-Gegner.  
+- **Airstrike-Funktion:** Spieler können eine spezielle Airstrike-Smoke-Grenade werfen, um einen AH-64D-Kampfhubschrauber anzurufen, der Höllenfeuer-Raketen auf die angepeilte Rauchstelle abfeuert.  
+- **Missile Launchers:** Optional platzierte Raketenwerfer auf der Map schießen automatisch auf Helikopter in Reichweite (bis zu 1000 m).
+
+## 3. In-Game-Interaktionen
+- **Installation:** Über Steam Workshop abonnieren und Spiel neu starten.  
+- **Helikopter-Events:** Keine speziellen Chat-Befehle – Events laufen serverseitig. Spieler nehmen teil, indem sie Helikopter im freien Flug bekämpfen und an den Absturzstellen looten.  
+- **Airstrike anfordern:** Airstrike-Smoke-Grenade auswählen und werfen; der Hubschrauber wird automatisch gerufen.  
+- **Abwehrsystem:** Missile Launcher funktionieren automatisch, wenn Helikopter in Reichweite sind.

@@ -1,0 +1,24 @@
+## 1. Überblick
+- **Mod-Name:** Car Key Slot  
+- **Kurzbeschreibung:** Fügt dem Inventar einen speziellen Slot für Fahrzeugschlüssel hinzu. Spieler können so ihre Schlüssel zentral verwalten, ohne sie im regulären Inventar unterbringen zu müssen.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Dedizierter Schlüssel-Slot:** Ein eigener Inventarplatz, in den nur Fahrzeugschlüssel einsortiert werden können.  
+- **Unterstützte Schlüsseltypen:**  
+  - Much Car Key  
+  - Trader Dr. Jones  
+  - Expansion Vehicles  
+  - AC Modpack  
+  - Lockpick  
+  - Wife Key  
+  - ND-Missions  
+  - Trader Plus Lockpick  
+- **Erweiterbarkeit:** Neue Schlüsseltypen können auf Wunsch des Server-Betreibers per Kommentar ergänzt werden.  
+- **Spieler-Mehrwert:**  
+  - Ordnung im Inventar durch Auslagerung aller Fahrzeugschlüssel in einen festen Slot  
+  - Schneller Zugriff auf Schlüssel beim Verriegeln/Entriegeln von Fahrzeugen  
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln & Einordnen:** Schlüssel werden beim Aufheben automatisch in den speziellen Slot einsortiert.  
+- **Verriegeln/Entriegeln:** Mit gedrückter Aktions-/Benutzungstaste am Fahrzeug interagieren – das Spiel prüft automatisch den Schlüssel im Slot und führt das Lock/Unlock aus.  
+- **Keine neuen Chat-Befehle:** Alle Vorgänge laufen über das Standard-Interaktionsmenü von DayZ, es sind keine zusätzlichen Befehle notwendig.  

@@ -1,0 +1,29 @@
+## 1. Überblick
+- **Mod-Name:** SNAFU Weapons  
+- **Kurzbeschreibung:**  
+  Ein Community-Modpack für DayZ Standalone, das eine Vielzahl neuer Waffen-Skins, -Modelle und -Aufsätze hinzufügt sowie bestehende Waffen visuell und funktional überarbeitet.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Neue Waffen & Skins:**  
+  – Dutzende neuer Waffenmodelle (z. B. SNAFU_MK47, SNAFU_SR3_Vikhr, GCGN_M200-Varianten) mit individuellen Farb- und Tarnmustern  
+  – Vollständig überarbeitete Texturen für Bolt-Action-Gewehre (M200, T5000) und automatische Waffen (SA58, MPX usw.)  
+- **Neue Aufsätze & Zubehör:**  
+  – Zusätzliche Mündungsaufsätze, Schäfte, Griffe, Zweibeine und Schalldämpfer für verschiedenste Kaliber  
+  – Angepasste Visiere und Reticles (Elcan, EoTech, ACO, Reddot → Greendot)  
+- **Verbesserte Sounds & Effekte:**  
+  – Überarbeitete Waffensounds für AK-Reihe, DMRs und PMCs  
+  – Angepasste Treffer- und Nachladeeffekte  
+- **Balistik- und Gameplay-Ausblick:**  
+  – Geplante Integration eigener Geschosswerte und eines erweiterten Ballistik-Systems  
+  – Erweiterte Reskins für Rüstung, Kleidung, Gebäude, Storage-Container und Verkaufsautomaten (im Aufbau)
+
+## 3. In-Game-Interaktionen
+- **Mod-Abonnement & Laden:**  
+  – Spieler abonnieren das Mod über den Steam Workshop und starten DayZ neu, damit alle Dateien geladen werden.  
+- **Loot & Spawn:**  
+  – Neue Waffen und Aufsätze erscheinen als Teil der normalen Loot-Tabellen (sofern serverseitig aktiviert).  
+- **Bedienung & UI:**  
+  – Kein zusätzliches Chat-Commands – alle Interaktionen erfolgen über das Standard-Interaktionsmenü („Benutzen“).  
+- **Custom Skins auf Anfrage:**  
+  – Spieler können spezielle Wunsch-Skins beim Mod-Team anfragen (über Workshop-Kommentare oder Discord).
+

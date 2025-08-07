@@ -1,0 +1,36 @@
+## 1. Überblick
+- **Mod-Name:** DayZ-Expansion-Market  
+- **Kurzbeschreibung:** Vollwertiges Handels- und Marktsystem, das NPC- und Objekt-Händler in definierten Zonen platziert, mit dynamischem und statischem Lagerbestand, individuell konfigurierbaren Währungen sowie einem umfangreichen Marktmenü.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Handelszonen & Händler:**  
+  - Vordefinierte Marktplätze und Handelsposten (NPC oder statische Objekte) auf der Karte  
+  - Händler erscheinen an festgelegten Positionen in Chernarus (und in anderen Maps via Konfiguration)  
+- **Dynamischer & statischer Lagerbestand:**  
+  - Statisches Anfangslager, das sich nur serverseitig nach Neustart erneuert  
+  - Dynamischer Lagerbestand, der sich nach Käufen/Verkäufen innerhalb definierter Min-/Max-Werte automatisch anpasst  
+- **Währung & Preise:**  
+  - Jeder stapelbare oder quantifizierbare Gegenstand kann als Währung definiert werden  
+  - Item-Zustand (Schadensgrad) beeinflusst Ankaufspreis und Lagerbestand  
+  - Vordefinierte Standardpreise und Lagerwerte für alle Vanilla- und Expansion-Items  
+- **Markt-UI & Bedienkomfort:**  
+  - Einblendbares Menü mit Farbanpassungen, Kategorie-Filter, Suchfeld und „Alle einklappen/ausklappen“-Button  
+  - Dropdown für Item-Variationen, wenn mehrere Varianten existieren  
+  - Separate Menüs für Kauf/Verkauf mit einstellbaren Filteroptionen  
+- **Erweiterbarkeit & Modding:**  
+  - Unterstützung von eAI-basierten Händlern  
+  - Vorlagen für Basis-Baumit­tel-Händler und andere spezialisierte Angebote  
+  - Vollständig über JSON konfigurierbar: Zonen, Preis- und Lagerwerte, Währungen, Menü-Styles  
+
+## 3. In-Game-Interaktionen
+- **Händler aufsuchen:**  
+  - Zu einem markierten NPC oder Markt-Objekt laufen (POIs auf der Map oder anhand von GPS-Koordinaten)  
+- **Markt öffnen:**  
+  - Standardmäßig im Aktionsmenü („Benutzen“/E-Taste) am Händler interagieren  
+- **Kaufen & Verkaufen:**  
+  - Im Menü gewünschte Kategorie oder Suchfunktion nutzen, Item auswählen, Menge einstellen, „Buy/Sell“ klicken  
+  - Gegenstand und ggf. Währung wird automatisch aus dem Inventar gebucht  
+- **Menübedienung:**  
+  - Kategorien auf- und zuklappen, Farben und Layout nach Server-Preset  
+  - Dropdowns für Item-Variationen und Filter (Kauf-only, Verkauf-only)  
+- **Kein Chat-Command:** Läuft vollständig über das normale DayZ-Interaktions- und Inventar-UI  

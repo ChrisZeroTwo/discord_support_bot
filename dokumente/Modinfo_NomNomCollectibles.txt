@@ -1,0 +1,17 @@
+## 1. Überblick
+- **Mod-Name:** NomNom Collectibles  
+- **Kurzbeschreibung:** Fügt eine umfangreiche Auswahl sammelbarer Objekte (Retro-Konsolenkassetten, Figuren, Comics, Sammelkarten etc.) hinzu, die realistisch an üblichen Loot-Spawns erscheinen und Spielern das Gefühl einer echten Sammlung vermitteln.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Über 11 Sammler-Kategorien:**  
+  - *Major (mit Case, Display und Collectible):* Gameboy-Cartridges, Chibi-Statuen, Comics, Funko Pops, Videospiele, Trading Cards (Pokémon; Yu-Gi-Oh & MTG in Arbeit)  
+  - *Minor:* HGC-Währung, Heavenly Stones, Poster, (bald) Polaroids, Devices, Quest-Items  
+- **Realistisches Sammelerlebnis:** Jedes Sammelobjekt kommt in einer passenden Schutzhülle (Case) und optionalem Display-Ständer, um die Begeisterung von Retro-Sammlern nachzubilden.  
+- **Loot-Integration:** Sammelobjekte tauchen an gewöhnlichen Loot-Spawns (Wohnhäuser, Farmen, Geschäfte) auf und bieten einen zusätzlichen Anreiz, die Welt nach besonderen Items zu durchsuchen.  
+- **Erweiterbarkeit:** Geplante Updates mit einer „Turn-In“-Funktion (Eintausch kompletter Sets gegen Belohnungen) und einer UI zur Verwaltung gesammelter Objekte.
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln:** Über das Standard-Interaktionsmenü („Benutzen“ bzw. Aufheben-Taste) – Objekte landen direkt im Inventar.  
+- **Darstellung:** Display-Ständer und Cases dienen rein dekorativen Zwecken und können in der Basis platziert oder im Inventar betrachtet werden.  
+- **Keine Chat-Befehle:** Alle Aktionen erfolgen über das Inventar- und Welt-Interaktionssystem.  
+- **Update-Hinweise:** Neue Kategorien und Funktionen werden in den Workshop-Changelogs und auf dem Discord des Mod-Autors angekündigt.

@@ -1,0 +1,31 @@
+## 1. Überblick
+- **Mod-Name:** RaG BaseBuilding  
+- **Kurzbeschreibung:** Fügt modulare Basisbauelemente als wiederverwendbare Kits hinzu, mit denen Spieler komplexe Strukturen schnappen-und-ablegen-mäßig aufbauen können.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Kitsystem:**  
+  - Crafting-Kits aus **4 Holzbrettern** + **10 Nägeln** öffnen ein Bauteil-Hologramm.  
+  - Einmal craften, mehrfach verwenden – keine separate Kit-Menge pro Teil nötig.  
+- **Snap & Rotate Controls:**  
+  - **Arrow Down:** Snapping an/aus  
+  - **Arrow Up:** Rotation per Mausrad am aktuellen Snap-Punkt  
+  - **Arrow Right:** Zwischen Snap-Punkten wechseln  
+  - Alle Keybinds in den DayZ-Einstellungen anpassbar.  
+- **Sicherheit & Raiding:**  
+  - Bauteile lassen sich mit **Codelocks** oder **Combinationlocks** (inkl. Expansion-Addon) verriegeln.  
+  - Raids funktionieren wie im Vanilla-System.  
+  - Offene Türen schließen sich automatisch nach Server-Neustart.  
+- **Zusätzliche Features:**  
+  - **Öffnbare Fenster**  
+  - **Hide/Show Inventory-Panel** für Container-Bauteile  
+  - **BreachingCharge-Mod**-Kompatibilität  
+- **Dekorative Attachments:**  
+  - Anbaubare Elemente: Stacheldraht, Tarnnetze, Weihnachtslichter  
+- **Materialverbrauch:**  
+  - Verbrauchsmengen je Bauteil konfigurierbar über eine JSON-Datei.
+
+## 3. In-Game-Interaktionen
+- **Kit craften:** 4 Planken + 10 Nägel → Kit herstellen  
+- **Platzieren:** Kit öffnen → Hologramm spotten → mit Arrow-Tasten snappen/rotieren → bauen  
+- **Sichern:** Lock anbringen → Inventar-Panel ein/ausblenden  
+- **Anpassen:** Keybinds und Materialverbrauch über das DayZ-Menü bzw. JSON-Config ändern  

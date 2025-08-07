@@ -1,0 +1,24 @@
+ Überblick
+Mod-Name: CJ187-LootChest
+
+Kurzbeschreibung: Fügt im Spiel verteilte Kisten („Loot Chests“) hinzu, die einmalig beim Serverneustart erscheinen und spezielle Belohnungen enthalten.
+
+2. Hauptfunktionen & Gameplay-Relevanz
+Verschiedene Kistentypen: Kleine Holz-Munitionskisten, große Supply-Kisten, militärische Plastikboxen in unterschiedlichen Größen und Farben.
+
+Einmaliger Spawn: Kisten erscheinen nur beim Server-Restart und können erst nach einem weiteren Neustart erneut mit Loot befüllt werden.
+
+Verschlussmechaniken: Manche Kisten sind verschlossen – öffnen mit einem der integrierten Schlüssel, alternativ per Lockpick oder Breaching-Werkzeug.
+
+Belohnungseffekt: Beim Öffnen erscheint ein Lichtstrahl über der Kiste, um den Fund sichtbar zu machen.
+
+Loot-Variabilität: Inhalte lassen sich als feste Item-Listen, über zufällige Loot-Tabellen oder als vollständig montierte Waffensets mit Aufsätzen konfigurieren.
+
+Keycard-Safes: Neu eingefügte Safes benötigen spezielle Keycards, um sie zu öffnen.
+
+3. In-Game-Interaktionen
+Abonnieren & Laden: Mod über den Steam Workshop abonnieren und DayZ neu starten, damit die Kisten im Spiel erscheinen.
+
+Öffnen von Kisten: Mit dem Standard-Interaktionsmenü („Benutzen“) den passenden Schlüssel, Lockpick oder das Breaching-Werkzeug auswählen und die Kiste öffnen.
+
+Keine Chat-Commands: Alle Aktionen laufen über das normale DayZ-Interaktionssystem; eigene Chat-Befehle sind nicht erforderlich.

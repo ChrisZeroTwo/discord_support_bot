@@ -1,0 +1,11 @@
+{
+  "concept": "NPC-driven tasks with narrative and combat objectives.",
+  "progression": "Currently 20 quests live; new quests are added regularly.",
+  "examples": [
+    "Viktors Zweifel – deliver a message to Linda",
+    "Zombie-Jagd mit Stil – eliminate 50 infected with a kitchen knife within 2 hours",
+    "Die Suche nach Frank – find Frank in an abandoned fire station and hand him a data stick"
+  ],
+  "how_to_start": "Speak to Viktor in the starter area to receive your first quest.",
+  "rewards": "Money, items, and reputation based on quest difficulty."
+}

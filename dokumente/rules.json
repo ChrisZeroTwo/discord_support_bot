@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "rule": "No PvP – strictly prohibited."
+    },
+    {
+      "id": 2,
+      "rule": "Be respectful – no toxic behaviour or harassment."
+    },
+    {
+      "id": 3,
+      "rule": "All vehicles must be parked in designated garages."
+    },
+    {
+      "id": 4,
+      "rule": "Maximum of one vehicle may be left outside temporarily."
+    },
+    {
+      "id": 5,
+      "rule": "Vehicles must be locked with a key. No compensation for theft."
+    },
+    {
+      "id": 6,
+      "rule": "Build bases responsibly: keep them compact and avoid building on POIs or roads."
+    },
+    {
+      "id": 7,
+      "rule": "Use German or English in voice/text chat."
+    },
+    {
+      "id": 8,
+      "rule": "Players inactive for more than 4 weeks forfeit bases and vehicles."
+    }
+  ],
+  "discord": {
+    "members": 20,
+    "active_players": 2,
+    "link": "https://crazy-world.info/discord"
+  }
+}

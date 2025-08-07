@@ -1,0 +1,135 @@
+﻿FAQ:
+
+Allgemein
+
+Wo finde ich die Serverregeln?
+Die Serverregeln sind direkt im Spiel über die Karte einsehbar. Drücke die Taste M, um die Map zu öffnen. Über der Karte findest du Buttons – klicke auf den Button mit der Aufschrift „Story“, um die Regeln anzuzeigen. Zusätzlich sind die Regeln auch in unserem Discord oder hier auf der Webseite verfügbar, falls du sie außerhalb des Spiels nachlesen möchtest.
+
+Wie finde ich den Server?
+Der Server heisst [German] Crazy-World: Last Survivors [PVE only] IP und Port: 94.46.92.51:2502
+
+Der Launcher zeigt, dass die Modliste nicht übertragbar ist oder ich bekomme nach laden des Servers eine Fehlermeldung, dass nicht alle Mods installiert sind
+Dieser Fehler tritt leider immer wieder auf, wenn man den normalen DayZ-Launcher verwendet. Wir empfehlen den DayZSA Launcher. Dieser erkennt die Mods sicher und ermöglicht ein Problemlases spielen auf unserem Server
+Du kannst den Launcher auf der Seite https://dayzsalauncher.com/ herunterladen
+
+
+Welche NPCs gibt es?
+Viktor ist einer der wenigen festen Ansprechpartner, die den Neuankömmlingen in Rostow offen gegenüberstehen. Er steht an der Bushaltestelle beim Trader und hat die Aufgabe, neue Freiwillige anzuwerben – Menschen, die helfen sollen, das Geheimnis um Rostow zu lüften. Doch Viktor hat seine Zuversicht verloren: Die meisten, die er einst ausgesandt hat, sind nie zurückgekehrt. Niemand weiß, ob sie gefallen sind, geflohen oder etwas viel Schlimmerem begegnet sind. Trotz aller Zweifel wirbt Viktor weiter. Doch diesmal ist er vorsichtiger geworden – ehe er jemanden auf Missionen schickt, testet er ihn auf seine Eignung.
+Linda wirkt fehl am Platz inmitten der Ruinen von Dworkino. In einem alten, halb verfallenen Supermarkt hat sie sich eingerichtet – ein Ort, der längst jedem Sinn von Normalität entwachsen ist. Ihr Lächeln ist freundlich, doch in ihren Augen liegt eine Schwere, als würde sie Dinge wissen, über die sie nie spricht. Manche glauben, Linda bleibe nicht aus Zufall an diesem vergessenen Ort. Vielleicht wacht sie über etwas. Vielleicht wartet sie auf jemanden. Für jene, die den Mut haben, ihr Vertrauen zu gewinnen, hält sie Aufgaben bereit – Aufgaben, die tiefer führen als bloßes Überleben. Wer ihr begegnet, sollte sich fragen, ob er bereit ist, Antworten zu suchen, für die es vielleicht längst zu spät ist.
+Frank: Manche sagen, Frank sei einst ein Wissenschaftler gewesen, bevor die Welt kippte. Andere behaupten, er habe nie wirklich dazugehört. Heute sammelt er Relikte, Fragmente und Überreste – auf der Suche nach einer Wahrheit, die besser im Verborgenen geblieben wäre. Wer ihm folgen will, stößt auf einen Ort, dessen Mauern einst für Sicherheit standen, wo alte Helme und vergilbte Einsatzpläne noch vom Kampf gegen das Feuer erzählen.D och nun sind nur noch Asche und Erinnerungen geblieben – und Frank, der rastlos nach Antworten sucht, die sich dem Feuer nie ganz entziehen konnten.
+Julia lebt zurückgezogen bei einer verlassenen Tankstelle. Zwischen rostigen Zapfsäulen und zerbrochenen Fenstern bewahrt sie das Wissen alter Tage.Nur wer genau hinsieht, entdeckt eine verborgene Tür, die in die Tiefe führt – an einen Ort, wo summende Kabel und flackernde Terminals das Schweigen brechen. Hier unten hält Julia Systeme am Leben, die längst als verloren galten. Manche sagen, sie könne Maschinen verstehen, als wären sie lebendig. Wer Julia aufsucht, sollte vorbereitet sein – nicht alles, was sie reaktiviert, gehört noch in diese Welt. 
+Es gibt noch ein Banditencamp im Süden. Hier laufen die bösen NPSs oder Bots rum und schießen auf alles, das sich bewegt. Äußerste Vorsicht ist absolut notwendig.
+
+Hinweise zu den Quests:
+Tötungen von Banditen NPCs werden nicht gezählt
+Bei der Quest "Schatten im Bunker" (Quest 17) kann es passieren, dass nicht alle getöteten Banditen korrekt gezählt werden. Zum Beispiel tötet der Spieler alle 8 Banditen oder fast alle, aber die Zählung bleibt bei 4 stehen. Die Quest ist in diesem Fall nicht verloren. Die Lösung ist, dass der Spieler sich etwa 600 Meter vom Bunker entfernt, etwa 30 bis 60 Sekunden wartet und dann zum Bunker zurückkehrt. Die Banditen werden neu gespawnt, aber die bereits erreichte Zählung bleibt erhalten. Der Spieler kann dann die fehlenden Kills ergänzen und die Quest wie vorgesehen abschließen, ohne sie neu starten zu müssen.
+
+
+
+Was passiert, wenn ich länger inaktiv bin?
+Längere Inaktivität hat keinen Einfluss auf deinen Charakter oder Fahrzeuge, die in der Garage stehen. Deine Basis bleibt für 3 Wochen sicher, beginnt jedoch danach langsam zu zerfallen, wenn niemand aus deiner Gruppe sich eingeloggt hat. Gegenstände in der Basis oder Welt, die nicht gesichert sind, bleiben ebenfalls für 3 Wochen sicher und beginnen anschließend nach und nach zu despawnen. Stelle sicher, dass deine Basis und wichtige Gegenstände regelmäßig gewartet werden, um sie langfristig zu erhalten.
+
+Wie finde ich die Story oder wichtige Informationen zum Server?
+Für den Anfang kannst du dich auf unserer Webseite umschauen. Dort findest du die wichtigsten Informationen kompakt zusammengefasst. Für alles Weitere und um tiefer in die Story einzutauchen, tritt unserem Discord bei. Dort kannst du nicht nur mehr über den Server erfahren, sondern auch direkt Fragen stellen und mit anderen Spielern kommunizieren.
+
+Wie kann ich mit anderen Spielern Gruppen bilden?
+Im Map-Menü gibt es den Punkt „Gruppe“. Hier kannst du eine neue Gruppe erstellen und andere Spieler einladen. In einer Gruppe können alle Mitglieder ihre Positionen auf der Karte sehen und gemeinsame Map-Marker setzen. Dies erleichtert die Zusammenarbeit und Koordination im Spiel erheblich.
+
+Gibt es regelmäßig Events oder Quests?
+Ja, es werden regelmäßig Events, Spiele und Rätsel angeboten, um das Spielerlebnis spannend und abwechslungsreich zu gestalten. Zum Start des Servers am 25.12.2024 sind Quests vor allem zur Einführung in das Quest-System vorhanden. Dieses wird jedoch kontinuierlich weiterentwickelt und um neue spannende Aufgaben erweitert, um dir langfristig immer wieder neue Herausforderungen zu bieten.
+
+Wo finde ich den Trader?
+Der Trader ist auf der Map eingezeichnet. Er befindet sich relativ im Zentrum der Map bei Rezoni.
+
+Basebuilding
+
+Wo darf ich meine Basis bauen?
+Es gibt keine festen Vorschriften, wo du deine Basis errichten kannst. Wichtig ist jedoch, dass deine Basis andere Spieler nicht behindert. Der Zugang zu wichtigen Gebäuden, Gebieten oder Strukturen darf nicht versperrt werden. Du kannst ein normales Gebäude als Basis nutzen, aber militärische Gebäude oder solche, die eine hohe Anziehungskraft auf Spieler haben könnten, sind tabu.
+Zum Bau einer Basis benötigst du einen Fahnenmast. Dieser sorgt dafür, dass im Umkreis von 50 Metern keine Gegenstände despawnen und deine Basis intakt bleibt. Baue mit Rücksicht auf andere Überlebende, damit das Spiel für alle fair bleibt.
+
+Wie groß darf meine Basis sein?
+Es gibt keine festen Regeln zur Größe deiner Basis. Bevorzugt sind jedoch kompakte Basen, da größere Strukturen die Performance in der Umgebung beeinflussen können. Wenn du eine große Basis planen möchtest, achte darauf, sie abseits gängiger Player-Routen zu bauen, um andere Spieler nicht zu beeinträchtigen. Überlege gut, wie du deine Basis gestaltest, damit sie funktional bleibt und das Spielgefühl für alle nicht beeinträchtigt wird.
+
+Gibt es Einschränkungen bei der Platzierung von Basen?
+Ja, beim Bau deiner Basis gibt es einige wichtige Einschränkungen zu beachten. Der Zugang zu zentralen Gebäuden, Gebieten oder Strukturen, die für andere Spieler wichtig sind, darf nicht blockiert werden. Dazu gehören vor allem militärische Gebäude oder andere Orte, die eine hohe Anziehungskraft auf Spieler haben könnten.
+Deine Basis sollte andere Überlebende nicht behindern oder belästigen – weder durch ihre Platzierung noch durch ihre Größe. Normale Gebäude können als Basis genutzt werden, solange sie nicht gegen diese Regeln verstoßen. Achte darauf, Rücksicht auf andere Spieler zu nehmen, um ein faires und angenehmes Spielerlebnis für alle zu gewährleisten
+
+Was passiert mit meiner Basis, wenn ich länger nicht aktiv bin?
+Die Fahne in deinem Fahnenmast verliert regelmäßig an Höhe. Wenn sie über einen Zeitraum von 3 Wochen nicht gehisst wird, erreicht sie den Tiefpunkt, und der Zerfall der Basis beginnt. Zudem wird die Fahne vollständig zerstört, wenn sich kein Mitglied der zugehörigen Gruppe innerhalb der letzten 21 Tage eingeloggt hat. Sorge dafür, dass du oder deine Gruppenmitglieder regelmäßig aktiv bleiben, um deine Basis zu sichern.
+
+Gibt es eine Beschreibung, wie das Basebuilding mit RaG_Basebuilding funktioniert?
+RaG_Basebuilding bietet dir vielseitige Möglichkeiten, deine Basis individuell zu gestalten und zu sichern. Basen können mit Codelocks oder Combinationlocks gesichert werden. Das Raiding funktioniert genauso wie im Vanilla-Spiel und ist zudem kompatibel mit der BreachingCharge. Fenster lassen sich öffnen und schließen, und du kannst das Inventar deiner Basis ein- und ausblenden. Das System unterstützt sowohl native Codelock-Mods als auch Expansion-Codelock-Mods. Türen schließen sich nach einem Server-Neustart automatisch, falls sie offen gelassen wurden. Zusätzlich kannst du Stacheldraht, Tarnnetze oder Weihnachtslichter an bestimmten Teilen deiner Basis anbringen.
+Um ein Kit zu craften, kombiniere 4 Planken mit 10 Nägeln. Beim Platzieren deiner Bauobjekte kannst du verschiedene Steuerungen nutzen. Mit der Taste ARROW DOWN aktivierst oder deaktivierst du das Snapping. Mit ARROW UP kannst du das Objekt am aktuellen Snapping-Punkt mit dem Mausrad drehen, und mit ARROW RIGHT wechselst du zwischen den verschiedenen Snapping-Punkten. Diese Keybinds kannst du in den DayZ-Menüeinstellungen anpassen.
+RaG_Basebuilding ermöglicht es dir, deine Basis nicht nur sicher, sondern auch einzigartig zu gestalten. Nutze die zahlreichen Funktionen, um deine Umgebung nach deinen Vorstellungen aufzubauen.
+
+Garagen
+
+Wo finde ich Garagen?
+Garagen findest du beim Trader und an Tankstellen. Beim Trader hast du außerdem die Möglichkeit, eine persönliche Garage zu kaufen, die du in deiner Basis platzieren kannst. So kannst du deine Fahrzeuge bequem und sicher direkt bei deiner Basis lagern.
+
+Wie viele Fahrzeuge kann ich in der Garage speichern?
+In einer Garage können bis zu 12 Fahrzeuge geparkt werden. Sollte dieser Platz nicht ausreichen, kann die Kapazität der Garage erweitert werden. Dies ermöglicht dir, noch mehr Fahrzeuge sicher zu lagern und jederzeit darauf zuzugreifen.
+
+Was passiert, wenn ich ein Fahrzeug nicht in der Garage parke?
+Fahrzeuge, die länger als eine Woche nicht bewegt werden und nicht in einer Garage stehen, werden automatisch entfernt. Die Lebensdauer eines Fahrzeugs hängt davon ab, ob es mit einem Schlüssel gesichert ist:
+Fahrzeuge ohne Schlüssel: Lebensdauer von 5 Tagen.
+Fahrzeuge mit Schlüssel: Lebensdauer von 7 Tagen.
+Um die Lebensdauer eines Fahrzeugs zu resetten und es vor dem automatischen Entfernen zu schützen, gibt es folgende Möglichkeiten:
+- Das Fahrzeug starten
+- Einen Schlüssel zuweisen
+- Das Fahrzeug abschließen oder aufschließen
+Denkt daran, eure Fahrzeuge regelmäßig zu sichern und zu nutzen, damit sie nicht verloren gehen. Eine Garage bietet den besten Schutz!
+
+Kann ich ein Fahrzeug aus der Garage eines anderen Spielers stehlen?
+Nein, Fahrzeuge in Garagen sind sicher und können nicht von anderen Spielern gestohlen werden. Die Garage bietet vollständigen Schutz vor Diebstahl und Schäden. Nur der Besitzer oder Mitglieder der zugehörigen Gruppe haben Zugriff auf die dort gespeicherten Fahrzeuge.
+
+Black Market
+
+Gibt es einen Black Market?
+Es gibt Gerüchte über einen Mann, der sich tief in einem bunkerähnlichen Bau verschanzt hat. Niemand weiß genau, wer er ist oder wie er dort hingekommen ist. Doch eins ist sicher: Er kennt die Verzweiflung der Überlebenden und weiß sie für sich zu nutzen. Angeblich handelt er mit allem, was einen Wert hat – Waffen, Nahrung, seltene Ausrüstung. Doch sein Ziel ist klar: Er wird jeden über den Tisch ziehen, der nicht aufpasst.
+Nur wenige haben ihn je getroffen, und noch weniger kehrten mit einem guten Geschäft zurück. Ob dieser Ort wirklich existiert oder nur eine Legende ist, bleibt unklar. Wer den Mut hat, ihn zu suchen, sollte gewarnt sein: In den Schatten des Black Market lauert mehr als nur Handel.
+
+Wo finde ich den Black Market?
+Sollte es einen Black Market geben, dann wäre sein Standort streng geheim. Nur wenige Überlebende hätten ihn bisher gefunden. Halte die Augen offen und achte auf Hinweise – vielleicht führen sie dich zu diesem mysteriösen Ort.
+
+Was kann ich im Black Market handeln?
+Sollte es einen Black Market geben, dann könntest du dort Drogen und seltene Gegenstände verkaufen. Der Händler soll außerdem über ein beeindruckendes Arsenal an Waffen verfügen, die er den Mutigen anbietet, die bereit sind, einen hohen Preis zu zahlen.
+
+Gibt es Einschränkungen oder Gefahren beim Betreten des Black Market?
+Sollte es einen Black Market geben, dann bleibt unklar, welche Gefahren dort auf dich warten könnten. Da der Ort unbekannt ist, weiß man nicht viel darüber, was einen erwartet. Eines steht jedoch fest: Es ist ratsam, mit ausreichend Munition und einer guten Ausrüstung vorbereitet zu sein. Vorsicht ist der Schlüssel – wer unvorbereitet hingeht, könnte schnell in Schwierigkeiten geraten.
+
+
+Gameplay
+
+Warum färbt sich der Himmel rot?
+Ein unheilvolles Flüstern kündigt es an: Wenn das Firmament in blutrote Töne übergeht, hat eine Anomalie ihren Lauf genommen. Niemand kennt ihren Ursprung – nur wenige wagen sich, den Schleier lüften zu wollen. Du kannst dich ihnen anschließen: Suche Viktor an der Bushaltestelle beim Trader auf. Vielleicht führt dich sein Rat einem winzigen Funken Wahrheit näher…
+
+Was muss ich tun, wenn der Himmel in Flammen steht?
+Sobald der rote Schein die Welt umhüllt, raubt dir eine unsichtbare Kraft deine Lebenskraft. Jeder Atemzug kostet Energie – wer das Pech hat, draußen zu sein, spürt die Schwächung bis ins Mark. Verstecke dich in geschlossenen Räumen, dort flaut das Knistern ab. Und suche Viktor auf: Er weiß, wo Schutz zu finden ist.
+
+Wo schlägt das Herz?
+In alten Mauern eines verlassenen Krankenhauses pocht ein kolossales Herz, so sagen es die Legenden. Der genaue Standort bleibt im Dunkeln, doch jeder Überlebende, der es wagt, erzählt von dumpfen Schlägen hinter zerfallenen Wänden. Wer mutig genug ist, mag dem Klang folgen…
+
+Was verbirgt sich hinter dem Portal?
+Bevor das Firmament in Rot getaucht wird, dringt eine rätselhafte Durchsage an dein Ohr: „Portal geöffnet“. Etwa 25 Minuten später verkündet die gleiche Stimme die „Entwarnung“. Wohin dieses Tor führt, bleibt ein Rätsel zwischen den Welten. Manche munkeln, jenseits der Schwelle lauerten fremde Dimensionen – andere vermuten ruchlose Händler nutzen es. Erkundige dich bei Viktor und seinen Gefährten, vielleicht findet ihr gemeinsam den Schlüssel zur Wahrheit…
+
+Ich kann im Kamin oder im Pavillion keine Feuerstelle Platzieren. Es verschwindet direkt wieder
+Du musst dort keine Feuerstelle platzieren. Es reicht, wenn du Feuerholz nimmst und das dort drinnen platzierst. Die Feuerstelle wird dann automatisch erstellt.
+
+Wie funktioniert das mit den Pokemonkarten?
+Due kannst 10 Bretter mit einer Pokemonkartte kombinieren und erhälst dann eine Pokemon Kiste. In dieser Kiste kannst du deine gefundenen Karten Sammeln. Doppelte gehen nicht rein. Gehe mit der Kiste in der Hand zu der Tonne mit dem Teddy beim Trader. Dort wirst du fuer das Sammeln belohnt. Folgende Betraege bekommst du: 20 Karten 1000,  50 Karten 3000, 75 Karten 8000, 100 Karten 12000 und fuer 107 Karten 20000.
+
+Wo befinden sich die unterirdischen Bunker?
+Es gibt 3 Bunker: In Ostrovez, Orlesko und Pavlovka Military
+
+Wann ist Server-Restart?
+Der Server startet alle 4 Stunden. um 1:00 Uhr, 5:00 Uhr, 9:00 Uhr, 13:00 Uhr, 17:00 Uhr, 21:00 Uhr.
+
+Kann ich Fahrzeuge (Auto) oder Fahrzeugteile wie Scheiben und andere reparieren
+Ja, es gibt eine Hebebühne am Trader. Da kannst du ein Laptop befestigen und dann dein Fahrzeug komplett kostenlos reparieren. Das Laptop musst du allerdings finden. Das gibt es nicht zu kaufen. Du kannst die Hebebühne auch für deine BAse finden. Dann benötigst du aber auch noch eine Stromquelle. An der Garage kannst du auch kostenpflichtige Reparaturen durchführen. diese sind aber nicht so umfangreicht, wie mit der Hebebühne.
+
+Wie ist das mit den Toxic-Zonen (Gas-Zonen)
+Der Beginn einer Zone wird durch eine Sirene angekündigt. Die Zone ist ungefähr 30 Minuten aktiv. Es gibt keine festen Zonen.
+
+Wird der Server gewiped / Wird es einen Wipe geben?
+Der Server wird nur dann zurückgesetzt, wenn es technisch absolut notwendig ist. 

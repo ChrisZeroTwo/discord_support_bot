@@ -1,0 +1,22 @@
+{
+  "heli_crashes": "Animated events that spawn rare loot guarded by infected.",
+  "toxic_zones": {
+    "access": "Gas mask required",
+    "note": "Full NBC suit NOT required"
+  },
+  "vehicles": {
+    "test_drive": true,
+    "buy_from_trader": true
+  },
+  "trader": true,
+  "blackmarket": "Hidden location – discover it through exploration and quests.",
+  "basebuilding": {
+    "decor_items": "Extensive selection for customising bases"
+  },
+  "quests": {
+    "solo": true,
+    "coop": true,
+    "difficulty_scaling": true,
+    "description": "Narrative tasks and combat challenges added regularly."
+  }
+}

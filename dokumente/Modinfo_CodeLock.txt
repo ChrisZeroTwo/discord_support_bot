@@ -1,0 +1,16 @@
+## 1. Überblick
+- **Mod-Name:** Code Lock  
+- **Kurzbeschreibung:** Eine verbesserte Kombinationstürschloss-Mod, mit der Spieler an Türen und Toren einen 6-stelligen alphanumerischen Code anbringen und so Basen und Bereiche effektiv absichern können.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Passcode-Erstellung:** Beim Anbringen eines Code Locks an eine Tür/Gatter legt man einen 6-stelligen alphanumerischen Code fest.  
+- **UI für Code-Eingabe:** Interagiert man mit dem Schloss, öffnet sich ein spezielles Fenster zur Eingabe des Codes.  
+- **Persistent Unlocking:** Wer den Code einmal korrekt eingegeben hat, kann das Schloss danach ohne erneute Eingabe öffnen.  
+- **Raid-Mechanik:** Spieler können das Schloss aufbrechen, indem sie die „Raid“-Aktion ausführen; eine Anzeige zeigt die verbleibenden Lebenspunkte des Schlosses, und das Schloss wird bei 0 HP zerstört.  
+- **Rate-Limiting:** Verhindert UI-Spam und zu schnelle Eingaben; es gibt eine minimale Verzögerung zwischen den Eingabeversuchen.
+
+## 3. In-Game-Interaktionen
+- **Anbringen:** Im Inventar den Code Lock auswählen und per Drag-&-Drop oder Rechtsklick am Tür-/Torobjekt anbringen.  
+- **Code festlegen:** Im erscheinenden UI-Fenster den gewünschten 6-stelligen Code eingeben und bestätigen.  
+- **Öffnen:** Vor die verschlossene Tür treten, das Code Lock-Symbol anklicken, Code eingeben und Tür/Gatter öffnen.  
+- **Aufbrechen:** Ohne Code die Raid-Aktion lange genug ausführen; die Schloss-HP‐Leiste wird angezeigt und nimmt Schaden, bis das Schloss zerstört und die Tür zugänglich ist.  

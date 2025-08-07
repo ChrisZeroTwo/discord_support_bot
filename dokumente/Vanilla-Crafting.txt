@@ -1,0 +1,75 @@
+Werkzeuge & Waffen
+Steinmesser: 2x kleiner Stein
+
+Knochenmesser: 2x Tierknochen oder Knochen gegen Felsen schlagen
+
+Speer: Langer Stock + 100% intaktes Steinmesser
+
+Nagel-Baseballschläger: Baseballschläger + Nägel
+
+Stacheldraht-Schläger: Baseballschläger + Stacheldraht
+
+Improvisierter Schalldämpfer: Plastikflasche + Klebeband
+
+Bolzen für Armbrust: Kurzer Stock + Messer + Hühnerfedern
+
+Feuerbohrer: Kurzer Stock + Baumrinde
+
+Kleidung & Rucksäcke
+Stofffetzen: Messer + Kleidungsstück
+
+Armbinden:
+
+Einfarbig: Regenjacke/Flagge + Messer
+
+Gemustert: Bestimmte Kleidung + Messer (Mod-abhängig)
+
+Jute-Rucksack: Jutesack + Seil
+
+Verbesserter Jute-Rucksack: Improvisierter Rucksack + 3x kurzer Stock
+
+Leder-Rucksack: Leder-Nähkit + 1x gegerbtes Leder
+
+Ghillie-Anzug:
+
+Poncho: 4x Netzgeflecht + Tarnnetz
+
+Vollversion: 10x Jutestreifen + 4x Netzgeflecht
+
+Feuer & Lagerbau
+Feuerstelle:
+
+Basic: Kurzer Stock + Papier/Baumrinde
+
+Steinkreis: Lagerfeuer + 8x großer Stein
+
+Ofen: Lagerfeuer + 16x großer Stein
+
+Fackel: Kurzer Stock + Stofffetzen
+
+Gaskocher: Gaskanister + Campingkocher + Kochtopf
+
+Feuertonne: Messer + leeres Fass
+
+Seile & Fallen
+Seil:
+
+Stoffvariante: 2x 6er-Stapel Stofffetzen
+
+Tierinnereien: Gedärme + Messer
+
+Stolperdraht: 2x kurzer Stock + Metalldraht
+
+Sprengfalle: Stolperdraht + Granate
+
+Bärenfalle: Vorgefertigt (7 Tage Lebensdauer)
+
+Lederverarbeitung
+Gegerbtes Leder: Pelz + Gartendünger
+
+Lederkleidung: Gegerbtes Leder + Leder-Nähkit (nicht in Vanilla ohne Mods)
+
+Medizin
+Kochsalzlösung: IV-Startkit + Salinenbeutel
+
+Schiene: Kurzer Stock + Stofffetzen

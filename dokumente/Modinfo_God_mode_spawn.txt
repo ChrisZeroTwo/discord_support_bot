@@ -1,0 +1,3 @@
+What:
+With this mod everytime a player spawns in the server, it will have a "certain amount of time" in GodMode.
+30 Sekunden nach Login gilt der Godmode

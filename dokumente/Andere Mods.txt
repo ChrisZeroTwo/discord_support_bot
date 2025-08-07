@@ -1,0 +1,220 @@
+# Revive-Modus
+
+player_revive:
+  methode: "Defibrillator am Leichnam durch anderen Spieler"
+  kosten: 0
+  inventar_gesichert: true
+  respawn_ort: "An der Todesstelle"
+
+hospital_revive:
+  methode: "Teleport ins Krankenhaus nach Zahlung"
+  kosten: 2500
+  zahlung: "Bargeld"
+  inventar_gesichert: true
+  respawn_ort: "Im Krankenhaus"
+
+aftereffects:
+  maxWounds: 1
+  minWounds: 1
+  health: 0.8
+  blood: 0.8
+  shock: 0.0
+
+respawn_options:
+  - "Krankenhausspawn (nach Zahlung von 2 500)"
+  - "Endgültiger Tod (Verzicht auf Respawn)"
+  hinweis: "Revive am Todesort nur durch anderen Spieler möglich"
+
+
+
+# Mod: Car Dealer
+description: "Script zum Kauf von Fahrzeugen über einen Autohändler"
+support:
+  discord: "https://discord.gg/kGjN6gJy3m"
+features:
+  showroom_per_player: true
+  action_objects: 4
+player:
+  buy_cars: true
+  sell_cars:
+    drop_inventory_to_ground: true
+    include_slot_items: true
+  buy_additional_items_for_car: true
+spawn:
+  blocked_location_handling: "Fahrzeug wird am nächsten freien Spawnpunkt erzeugt"
+
+
+# Mod: Enhanced Banking
+description: "Erweiterte Bankfunktionen mit persönlichen und Gruppen-Konten"
+features:
+  personal_bank_account: true
+  group_bank_account: true
+atm:
+  locations: "Bankautomaten stehen bei den Händlern"
+
+
+# Mod: Advanced Groups
+description: "Umfassendes Gruppensystem mit Chat, Markern, Kompass und mehr"
+features:
+  group_system:
+    clan_names_and_tags: true
+    hierarchy_ranks: true
+    invite_for_server_period: true
+    subgroups_and_firegroups: true
+    group_leveling: true
+    player_and_squad_list: true
+  chat_system:
+    group_chat: true
+    global_chat: true
+    show_clantags: true
+    highlight_admin_support: true
+  compass_and_ping:
+    compass:
+      requires_item: "Compass"
+      shows_player_direction: true
+      shows_ping_direction: true
+    tactical_ping:
+      auto_clear: true
+      limit_per_player: 1
+      custom_player_icons: true
+  map_and_markers:
+    group_markers: true
+    private_markers: true
+    rgb_icon_support: true
+    enable_disable_combinations: true
+    customizable_distance_3d_2d: true
+    cycle_3d_presets_key: "K"
+    drag_to_reposition: true
+    edit_marker_via_double_click: true
+  gps_and_minimap:
+    requires_item: "GPS"
+    small_centered_minimap: true
+    show_all_visible_markers: true
+    toggle_key: "B"
+    resizable_minimap: true
+  client_settings:
+    change_marker_colors: true
+    change_compass_color: true
+    change_playerlist_color: true
+    change_chat_position: true
+    change_playerlist_position: true
+    toggle_gps_compass_streamer_mode: true
+    adjust_3d_marker_position: true
+    toggle_3d_marker_elements: true
+    change_ping_icon_size: true
+  flag_pole_extension:
+    build_restrictions_below_rank: true
+    hostile_cannot_build: true
+    require_flagpole_for_basebuilding: true
+    auto_add_marker_on_placement: true
+    basebuilding_radius_m: 60
+
+
+# Mod: Virtual Garage
+description: "Erweiterte Garagenverwaltung mit Player Kit, Gruppen- und Banken-Integration"
+features:
+  player_garage_kit: true
+  group_garages_integration:
+    advanced_groups_support: true
+  banking_integration:
+    allow_atm_withdrawal: true
+    take_funds_from_atm: true
+  vehicle_dump_options:
+    allow_dump_old_vehicles: true
+    dump_when_key_lost: true
+
+
+
+# Mod: Earplugs
+description: "Einfaches Skript für Ohrstöpsel zur Lautstärkeregulierung"
+features:
+  icon_indicator: true
+  toggle_key:
+    default: "N"
+    configurable: true
+  volume_control:
+    step_percent: 10
+    range:
+      min: 5
+      max: 100
+
+
+
+# Mod: Better Inspect
+description: "Erleichtert die Auswahl kompatibler Aufsätze und Munition und hebt gleiche bzw. passende Items hervor"
+features:
+  attachment_helper: true
+  highlight_items:
+    same_type: true
+    compatible: true
+    same_type_color: "orange"
+    compatible_color: "yellow"
+  activation:
+    method: "Hover über Item + Druck der konfigurierbaren Taste"
+    default_key: "B"
+    configurable: true
+  supported_locations:
+    - "Hände"
+    - "Inventar"
+    - "Zelte"
+    - "Barrels"
+
+
+# Mod: Tägliche Belohnungen
+description: "Tägliche Login-Belohnungen nach 30 Minuten ununterbrochener Spielzeit im 30-Tage-Zyklus"
+features:
+  required_playtime_minutes: 30
+  reset_on_miss: true
+  cycle_length_days: 30
+  default_reward: "Sachpreis"
+  money_rewards_by_day:
+    "5": 2500
+    "10": 5000
+    "15": 7500
+    "20": 10000
+    "25": 12500
+    "29": 10000
+    "30": 50000
+
+
+# Mod: Autorun
+description: "Aktiviert den Autorun-Modus durch Doppeltippen der linken Shift-Taste"
+features:
+  autorun_activation:
+    method: "Doppeltippen der linken Shift-Taste"
+
+
+
+# Mod: Bunker Tunnels
+description: "Ermöglicht das Graben und Verbinden von Tunneln als Basis-Strukturen in großer Höhe zur Performance-Optimierung"
+features:
+  dig_tunnels_and_build_bases: true
+  high_altitude_deployment: true
+  performance_optimization: true
+  connectable_tunnels: true
+  codelock_compatibility:
+    normal: true
+    expansion: true
+configurable_settings:
+  damage_tools_during_construction: true
+  allow_raiding_other_tunnels: true
+  min_distance_between_hatches: true
+
+
+
+# Mod: Pokemon Karten
+description: "Sammle Pokémon-Karten und bewahre sie in speziellen Kisten ohne Duplikate auf"
+features:
+  collectible_cards: true
+  collection_boxes:
+    no_duplicates: true
+    craft_recipe:
+      planks: 10
+      pokemon_card: 1
+    sell_function: true
+    instructions: "Detaillierte Anleitung in der Beschreibung der Kiste"
+
+
+
+
+

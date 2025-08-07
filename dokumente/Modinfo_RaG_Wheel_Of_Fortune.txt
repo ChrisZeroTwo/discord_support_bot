@@ -1,0 +1,16 @@
+## 1. Überblick
+- **Mod-Name:** RaG Wheel Of Fortune  
+- **Kurzbeschreibung:** Ein tägliches Glücksrad-Event im Spiel, bei dem jeder Spieler einmal pro Server-Tag an einem konfigurierbaren Rad drehen und dabei zufällige Belohnungen gewinnen kann.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Tägliche Belohnung:** Jeder Spieler darf das Rad **nur einmal pro Server-Tag** bedienen.  
+- **Individuell anpassbar:** Alle Preise, Jackpot-Rewards, Spin-Dauer (Min/Max) und Benachrichtigungen lassen sich über eine JSON-Konfigurationsdatei ändern.  
+- **Jackpot-Feature:** Separater Jackpot-Bereich mit eigenen Preisen und optionaler Server-Weit-Benachrichtigung, wenn jemand den Jackpot trifft.  
+- **Variabler Spin:** Zufällige Drehzeit zwischen definierten Minimum- und Maximum-Werten sorgt für zusätzliche Spannung.
+
+## 3. In-Game-Interaktionen
+- **Aufrufen des Rads:** Standardmäßig über die **Insert**-Taste (kann in den Spieleinstellungen umgebunden werden).  
+- **Rad bedienen:** UI öffnet sich, Spieler klickt oder tippt auf „Spin“, das Glücksrad beginnt zu drehen und bleibt nach der zufälligen Dauer stehen.  
+- **Erhalt der Belohnung:** Gewinn wird direkt ins Inventar gelegt oder als Chat-/UI-Nachricht bestätigt.  
+- **Keine Chat-Commands:** Alle Abläufe laufen über das UI des Glücksrads und das normale Inventarsystem.  
+- **Tagesreset:** Das Nutzungs-Limit wird serverseitig ab Mitternacht (Serverzeit) zurückgesetzt; Client-Zeit spielt keine Rolle.  

@@ -1,0 +1,446 @@
+# iM7s_Drug Running Mod
+
+**iM7s_DrugRunning** expands upon some of the existing aspects of the game’s cultivation and crafting mechanics while introducing new items, ingredients, recipes, workstations, and the ability to manufacture ‘illicit’ products to enhance server economy.
+
+This mod also leverages the framework of [IAT_Crafting_Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=3142819902) and [IAT_Crafting_Plus_Enums](https://steamcommunity.com/workshop/filedetails/?id=3142820195) to accommodate the ability to craft complex recipes on workstations. 
+
+- As of update `version 1.01` — these are required dependencies to run this mod.
+
+[Features](https://www.notion.so/Features-1c370298035b80a2bd55c93a7475fc21?pvs=21)
+
+[Gallery](https://www.notion.so/Gallery-1c370298035b8035a900f9d8702dd04d?pvs=21)
+
+[Development](https://www.notion.so/Development-1c370298035b8017bb4ddb7bc670bdc9?pvs=21)
+
+[Server Files](https://www.notion.so/Server-Files-1c570298035b80679853dd59b9b55958?pvs=21)
+
+[Cultivation](https://www.notion.so/Cultivation-1de70298035b80ffac66ded8509b2e9d?pvs=21)
+
+[Recipes](https://www.notion.so/Recipes-1c570298035b8034a42ac3eafc0af97b?pvs=21)
+
+[Steam Workshop](https://www.notion.so/Steam-Workshop-1c770298035b8098ba0af0da4f50792e?pvs=21)
+
+[Additional Mods](https://www.notion.so/Additional-Mods-1c770298035b804a9f1ce9086b05e2e5?pvs=21)
+
+[FAQs](https://www.notion.so/FAQs-1da70298035b8061a71cc54d158dca30?pvs=21)
+
+[Community Showcase](https://www.notion.so/Community-Showcase-1e170298035b804db927e21631a4d742?pvs=21)
+
+**Stay up to date on important update announcements!**
+
+**For further any questions & additional support — Join the Discord linked below:**
+
+https://discord.gg/udRpffRuUh 
+
+[Cannabis & Coca Cultivation Preview Clip](https://youtu.be/UsUkV7v1p30)
+
+Cannabis & Coca Cultivation Preview Clip
+# Features
+
+### **Introducing**:
+
+- Complex Chemical Product Manufacturing
+- Indoor/Outdoor Cannabis Cultivation
+- Psilocybin Colony Cultivation
+- Coca Cultivation + Manufacturing
+- Various Pharmaceutical and Street Drugs
+    - Morphine Capsules XR 100mg (bottle & pill)
+    - Percocet 30mg (pill only)
+    - Promethazine w/ Codeine
+    - Ecstasy (20 variants)
+    - Methamphetamine (Blue, Pink, Peanut Butter)
+    - Cocaine
+    - MDMA (loot item; can be used in pill production)
+
+### **Further Expansion**:
+
+- Cannabis Cultivation:
+- Indoor Growing Methods:
+    - Grow Tents
+    - Grow Pots
+    - Lamps (WIP — Planned for Future Release)
+- Renowned Strains from California:
+    - Blue Cookies
+    - Champagne
+    - Cheetah Piss
+    - Gelato
+    - Bay Area Barney (GDP Hybrid)
+    - Paragon (Forum Cookies x MendoDawg)
+
+- Medical-Based Consumables:
+
+These items expand upon existing methods of consuming medication to combat pain levels, injuries, and some levels of disease agents.
+
+- Morphine XR Capsules - 100mg
+- Percocet - 30mg
+- Promethazine w/ Codeine
+- Pseudoephedrine Tablets 30mg
+
+- Transportation Pouch
+
+Specialized for hauling large loads of specific products with easy attachment slots to save space on inventory.
+
+### **IAT_CraftingPlus:** (many thanks to **Tree**)
+
+**iM7s_DrugRunning** leverages the framework of `IAT_Crafting_Plus` and `IAT_Crafting_Plus_Enums` to accommodate the ability to craft complex recipes on workstations. 
+
+The following workstations integrate this feature:
+
+- Lab Station
+- Production Table
+- Pill Press (WIP)
+
+For more information regarding recipes and the combination of required ingredients refer to: [Recipes](https://www.notion.so/Recipes-1c570298035b8034a42ac3eafc0af97b?pvs=21)
+
+
+# Cultivation
+
+iM7s_DrugRunning aims to extend upon the cultivation mechanics for it’s various horticulture aspects. It does so by introducing new features such indoor grow operation abilities (i.e. Grow Tents & Grow Pots) and new methods of cultivation for certain products (i.e. psilocybin mushrooms).
+
+This page will cover the topic of all the mod’s plants and cultivation related items that can be utilized in the process.
+
+### **Cultivation Equipment:**
+
+### **Grow Tents:**
+
+Bringing indoor grow operations to life in the apocalypse.
+
+Grow Tents allow for easy indoor setup to accommodate a single plant within it’s confines.
+
+To get started:
+
+- Acquire a **Grow Tent Kit**
+- Deploy the kit in your desired location.
+- Plant your desired crop into it’s attachment slot
+- Water & let it grow.
+- More will be added as we expand upon this feature.
+
+### **Grow Pots:**
+
+- Acquire a **Grow Pot Kit**
+- Deploy the kit in your desired location.
+- Plant your desired crop into it’s attachment slot
+- Water & let it grow.
+
+### **Mushroom Tubs: (WIP)**
+
+Check back for more information once this feature is released.
+
+### **Cultivation Plants:**
+
+There are currently **7** types of plants that may be grown with plans to add more in future updates. 
+
+- **Cannabis Strains:**
+    - Gelato Growtime: 2400 seconds
+    - Bay Area Barney Growtime: 3000 seconds
+    - Blue Cookies Growtime: 3600 seconds
+    - Champagne Growtime: 4200 seconds
+    - Cheetah Piss Growtime: 4800 seconds
+    - Paragon (Forum X MendoDawg) Growtime: 5400 seconds
+- **Coca Bush** Growtime: 5400 seconds
+    - A staple in the **Cocaine** production process
+
+### **Mushroom Cultivation:**
+
+Psilocybin cultivation has never been more immersive in DayZ. Let’s dive into how it works:
+
+- In order to get started, you will need to acquire a **Spore Syringe.** They come in **5** variants:
+    - Blue Veil Growtime: 2400 seconds
+    - Ghost CapsGrowtime: 3000 seconds
+    - SunsporesGrowtime: 3600 seconds
+    - Golden TeacherGrowtime: 4200 seconds
+    - Mystic VoidGrowtime: 4800 seconds
+- Once you have a **Spore Syringe**, you can now approach any **Garden Plot** with in in-hand and **Inject** the **Spore Culture** into the **Soil**/**Substrate** to start the process.
+- Add **Water** to the filled seed slot.
+- Protect your colony crops!
+    - The growth process is default set to 1 Hour to full maturity. However, you will be able to harvest once it reaches harvestable stages of growth.
+	
+	
+	# Cannabis Recipes
+
+The wholesome realm of the cannabis cultivation trade.
+
+This pursuit is quite commonly taken up by a vast array of survivors looking to further their ability to earn a decent income to sustain a more than satisfactory quality of life.
+
+But it’s not always an easy one and humble one.
+
+Crops are often discovered by those who prowl on opportunity to come up quick without doing the tedious tending of plants throughout their growth cycles.
+
+For those who dive into the cannabis trade, or those who find themselves in possession of it’s bounties, the recipes for crafting is quite basic.
+
+**Cannabis** products currently have **three** available **quantity** types:
+
+- **Buds** (chunky 1/2 oz. beauties)
+- **Zips** (ounces)
+- **Bricks**
+
+**All recipes require the same strain of buds in order to craft.**
+
+**Crafting Zips:**
+
+- 1 x **Bud** + 1 x **Bud** = 1 x **Zip**
+- 1 x **Zip** + any vanilla knife = 2 x **Buds**
+
+**Crafting Bricks:**
+
+Attaching full stacks of **Buds** from one strain to each available slot on the **Production Table** under the **Cannabis Products** panel and approaching the table with **Duct Tape** or **Ziplock Bags** in hand will bring up the option to **Craft a Brick**.
+
+- Requirements:
+    - Production Table
+    - Duct Tape or Ziplock Bag
+    - 16 Buds total (same strain)
+	,
+	
+	
+	# Chemical Recipes
+
+### Cooking complex batches of chemical based products can be accomplished through the framework of **Tree’s** [IAT_CraftingPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=3142819902) integration within the mod.
+
+Currently, there are **3 variants** of batches that can be cooked via the **Lab Station** ‘workbench’:
+
+- Methamphetamine:
+    - Heisenberg Blue
+    - Peanut Butter (Biker Batch)
+    - Pink Nesquik
+
+In order to **“cook batches”**, you will first be required to obtain and attach the necessary **ingredients** and **attach** them to the **Lab Station.**
+
+- Each batch type requires it’s own unique combination of ingredients.
+
+Once all the required **ingredients** are **attached** and in place, the **Lab Station** can be approached with one of the following **tool** item(s) to be given the ability to craft a batch:
+
+- Lighter (vanilla)
+- Blowtorch
+
+![Screenshot 2025-04-09 193924.png](attachment:e24f3515-44bc-4cd0-a2b2-4011bcd3945f:Screenshot_2025-04-09_193924.png)
+
+- **Heisenberg Blue:**
+    - `iM7s_Ammonia`
+    - `iM7s_Sodium_Hydroxide`
+    - `iM7s_pseudoephedrine`
+    - `iM7s_Acetone`
+    - `iM7s_Hydrofluoric_Acid`
+- **Peanut Butter:**
+    - `iM7s_Ammonia`
+    - `iM7s_pseudoephedrine`
+    - `iM7s_Bleach_01`
+    - `iM7s_Brake_Fluid`
+    - `iM7s_Battery_Acid_02`
+    - `iM7s_Ammonium_Nitrate`
+    - `GasCanister`  *(a.k.a. propane tank — can be any size)*
+- **Pink Nesquik:**
+    - `iM7s_Ammonia`
+    - `iM7s_pseudoephedrine`
+    - `iM7s_Bleach_02`
+    - `iM7s_Battery_Acid_01`
+    - `iM7s_Isopropyl_Alcohol`
+
+Cooking a Batch of Methamphetamine products will produce a **Tray.** 
+
+- 1 Tray + most common vanilla knives or hand tools = loose shards.
+    - Each batch variant produces a varying quantity of shards.
+
+Methamphetamine products are made available at different quantities:
+
+- Shard(s) — stackable to 20
+- Bundle(s)
+- Pound(s)
+- Brick(s)
+
+Each variant is required to be crafted within it’s own type.
+
+Crafting Bundles:
+
+- 1 shard + 1 shard = Meth Bundle
+
+Crafting Pounds:
+
+- 5 shards + 5 shards = Pound
+
+For information regarding bulk quantity products (bricks) refer to: [High-End Recipes: Meth Bricks](https://www.notion.so/Meth-Bricks-1d870298035b8089983acf98dcb6c3cf?pvs=21)
+
+# Cocaine Recipes
+
+The cocaine manufacturing process is quite simple.
+
+The process begins with cultivation of **Coca Seeds;** harvesting leaves from the ****mature **Coca Bush;** and combining the **leaves** with **Acetone** to create **Coke Pile**(s); and combining the **Coke Piles** into **Cocaine Bundles.**
+
+- This stage of production can be accomplished via regular crafting (combining the two items in hand + vicinity)
+
+The production of larger **bulk quantity** items **(Bricks)** takes place through interaction with a **Production Table** for complex crafting integrations to package the **Bundles** into a **Brick**.
+
+- For more information on this part of the production process:
+    
+    [Cocaine Bricks](https://www.notion.so/Cocaine-Bricks-1d870298035b80b19435ddfe1812cdb7?pvs=21)
+    
+    [High End Recipes](https://www.notion.so/High-End-Recipes-1c770298035b80429c05ecb713b62087?pvs=21)
+
+# Cocaine Bricks
+
+Cocaine Bricks
+
+In order to start cashing in on the cocaine trade market at a significant lucrative level, you will need to start producing large quantity in bulk.
+
+In order to accomplish this, you will need to have some things in order first:
+
+- Production Table
+- 5 x Cocaine Bundles
+- Duct Tape or Ziplock Bags
+
+With everything in place and your product attached to the production table, approach the workstation with your Duct Tape or Ziplock Bags in hand and the option to craft a Kick of Cocaine will appear.
+
+
+# High End Recipes
+
+One of the “high-end” lucrative options, of course, is transportation of the most valuable amounts of ‘weight’ and product(s) to the Trader as possible.
+
+However, this route, often does not come easy and will require players to invest their grind into a combination of acquiring the **required ingredients**, **amounts of product**, and **other production steps** involved in order to produce top-tier level quantities to gain the reward of top-dollar payouts for their efforts.
+
+Not only is this a risky process, vulnerable and susceptible to banditry and other threats, but it can get a bit complex. I believe that this only contributes more so to the overall immersion that is aimed at being provided by this expansive mod.
+
+With that being said — let’s get into the **complexities** of ‘**Brick’ Crafting** recipes.
+
+You’ll be needing some solid workspaces to produce any amounts of real weight.
+
+To get started, you’ll need to grab some common materials, or obtain a pre-made kit for the following workbenches:
+
+## **WORKSTATION RECIPES:**
+
+**Lab Station Kit:** *(required for production of chemical based products)**
+
+- **2x Sheet Metal** + **Metal Pipe** = **Lab Station Kit**
+- **Screwdriver** + **Lab Station** = Dismantle to Kit
+
+**Production Table Kit:** *(required for bagging up bricks of any given product)**
+
+- **2x Sheet Metal** + **Metal Pipe** = **Production Table Kit**
+- Screwdriver + Production Table = Dismantle to Kit
+
+## **PRODUCT RECIPES:**
+
+Once you have that sorted out and set up, you’re ready for the next steps. Depending on which line of ‘work’ you pursue, (i.e. cannabis, methamphetamine, cocaine, ecstasy, etc.) you’ll need to make sure you have the right amount & types of products to elevate into the big leagues.
+
+Here are some of the detailed recipes for various products: 
+
+[Ecstasy Bricks](https://www.notion.so/Ecstasy-Bricks-1d870298035b8039996ae607edd0d1a2?pvs=21)
+
+[Cocaine Bricks](https://www.notion.so/Cocaine-Bricks-1d870298035b80b19435ddfe1812cdb7?pvs=21)
+
+[Cannabis Bricks](https://www.notion.so/Cannabis-Bricks-1d870298035b80f9b634d78d4e2da07f?pvs=21)
+
+[Meth Bricks](https://www.notion.so/Meth-Bricks-1d870298035b8089983acf98dcb6c3cf?pvs=21)
+
+
+# Ecstasy Bricks
+
+**Ecstasy Manufacturing:**
+
+- 1 **Color Powder Pouch** + 1 Plain Bag of **Binding Agent** = **Colored Binding Agent**
+
+- 1 **MDMA Pack** + 1 Bag of **Colored Binding Agent** = 200 **Pills;**
+    - 50 of each stamped variant of that color.
+    - Each color has 4 different stamped variants.
+    - Each set also pops out an off-colored variant special to it’s set.
+        - (i.e. Red Che, White Spy, Pink Discord, and Orange Biohazard)
+
+- **‘Thizz’ aka Ecstasy Bundles:**
+    
+    To craft bundles — *(which are required in the process to convert to Ecstasy ‘Bricks’)*  — you must attach the a full stack (50 pills) from each of the 4 pill variants from it’s respective color set to the **Production Table** and have a **required tool** in-hand (**Duct Tape** or **Ziplock Bag**).
+    
+    - This will result in 1 x **Thizz Bundle** of whichever color you created it from.
+    - Each set has it’s own order of slot attachments (please refer below for examples):
+
+- **Purple Sets:**
+    - Slot 1: Bitcoin
+    - Slot 2: Morty
+    - Slot 3: Rolex
+    - Slot 4: Orange Biohazard
+        
+        ![Must be in this specific order to craft.](attachment:5b414d38-e913-4372-8843-2e6f1ba88757:Screenshot_2025-04-16_195737.png)
+        
+        Must be in this specific order to craft.
+        
+
+- **Green Sets:**
+    - Slot 1: Butterfly
+    - Slot 2: Rick
+    - Slot 3: Playboy
+    - Slot 4: White Spy
+        
+        ![Must be in this specific order to craft.](attachment:fc2d552b-5422-4e0d-b360-8a1388ee6319:Screenshot_2025-04-16_200618.png)
+        
+        Must be in this specific order to craft.
+        
+
+- **Blue Sets:**
+    - Slot 1: Mitsubishi
+    - Slot 2: Naked Lady
+    - Slot 3: Mac Dre
+    - Slot 4: Pink Discord
+        
+        ![Must be in this specific order to craft.](attachment:42536fce-a175-4b78-b730-abf21021efb9:Screenshot_2025-04-16_200502.png)
+        
+        Must be in this specific order to craft.
+        
+
+- **Yellow Sets:**
+    - Slot 1: Round Star
+    - Slot 2: Jake the Dog
+    - Slot 3: Big Bird
+    - Slot 4: Red Che
+        
+        ![Must be in this specific order to craft.](attachment:b4c6973f-623d-46d6-8103-f378057f9dee:Screenshot_2025-04-16_200721.png)
+        
+        Must be in this specific order to craft.
+        
+    
+- 5 x **Thizz Bundles** can be placed inside the **Thizz Boat Pouch** attachment slots for total of **1000 Pills** easy transportation.
+    
+    ![Thizz Boat Pouch | Transport Bag | Has 5 ‘Bundle’ attachment slots + 3x3 cargo capacity.](attachment:06207c77-6d24-4012-8374-1a6c02aa6041:Screenshot_2025-04-01_014356.png)
+    
+    Thizz Boat Pouch | Transport Bag | Has 5 ‘Bundle’ attachment slots + 3x3 cargo capacity.
+    
+    - Keep in mind, while this is a convenient approach to transporting the same quantity of pills as an ecstasy boat ‘brick’ — the payoff is more than likely of much less value in comparison.
+
+**Crafting Bricks:**
+
+This step requires you to have accumulated 5 x **Thizz Bundles** of the same color, attach them to the **Production Table** under Pill Products panel, and approach the table with either **Duct Tape** or **Ziplock Bags** in hand to craft.
+
+In addition to **Ecstasy Bricks**, you may also craft **MDMA Bricks**. This process requires 2 x **MDMA Packs** to be attached to the **Production Table**, and **Duct Tape** or **Ziplock Bags** in hand to craft.
+
+
+# Cocaine Bricks
+
+Cocaine Bricks
+
+In order to start cashing in on the cocaine trade market at a significant lucrative level, you will need to start producing large quantity in bulk.
+
+In order to accomplish this, you will need to have some things in order first:
+
+- Production Table
+- 5 x Cocaine Bundles
+- Duct Tape or Ziplock Bags
+
+With everything in place and your product attached to the production table, approach the workstation with your Duct Tape or Ziplock Bags in hand and the option to craft a Kick of Cocaine will appear.
+
+
+# Cannabis Bricks
+
+Cannabis Bricks can be crafted at the Production Table by approaching it and attaching a total of 16 buds of the same strain to their respective slots.
+
+There are 8 slots accepting 8 stacks of 2.
+
+With Duct Tape or Ziplock Bags in hand, the option to craft will present itself.
+
+
+# Meth Bricks
+
+Once you’ve taken the necessary steps to manufacture your product using the Lab Station and necessary ingredients to produce a batch, you’re ready to break down those trays and gather up your shards onto the Production Table.
+
+Attach 5 stacks of 20 (must be same batch type) to the respective slots located under the Meth Products tab.
+
+Approach the Table with Duct Tape or Ziplock Bags in hand, and the option to craft Brick of Meth will appear.
+
+
+
+

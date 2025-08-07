@@ -1,0 +1,17 @@
+## 1. Überblick
+- **Mod-Name:** Collectable Items  
+- **Kurzbeschreibung:** Fügt eine Vielzahl dekorativer und sammelbarer Loot-Gegenstände ins Spiel ein, von Retro-IT-Hardware über Spielzeug bis zu Karten und Dokumenten, um das Erkundungs- und Sammelerlebnis zu bereichern.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Kategorien sammelbarer Gegenstände:**  
+  - **IT‐Hardware & Elektronik:** Grafikkarten (GPU), Bitcoin-Mining-Rigs, SSDs, Smartphones (z. B. iPhone), RAM-Sticks, USB-Sticks  
+  - **Retro‐Medien & Datenträger:** Game Boy-Kassetten, Floppy Disks, Memory Cards (PS1), Tetris-Spielzeuge  
+  - **Sammler-Karten & Alben:** Pokémon-Karten (inkl. Collector Album), Trading Cards, Poster  
+  - **Spielzeug & Figuren:** Polaroid-Fotos, Pocket Watches, Cross-Necklaces, Vintage-Figuren  
+- **Loot-Integration:** Alle Objekte tauchen an regulären Loot-Spawns (Wohnhäuser, Büros, Fabriken, Spielplätze) auf und verleihen Erkunden einen neuen Anreiz.  
+- **Dekorativer Mehrwert:** Viele Items kommen mit passenden Cases oder Displays und können Basis- oder Lager-Dekorationen bilden.
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln:** Standard-Interaktionsmenü („Benutzen“/Aufheben) – Gegenstände landen direkt im Inventar.  
+- **Betrachten & Platzieren:** Einige Objekte (Display-Ständer, Cases) können in der Welt platziert oder im Inventar inspiziert werden.  
+- **Keine zusätzlichen Chat-Commands:** Alle Funktionen laufen nahtlos über das DayZ-Inventar- und Aktionssystem, ohne neue Befehle.

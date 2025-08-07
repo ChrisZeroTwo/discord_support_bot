@@ -1,0 +1,40 @@
+## 1. Überblick
+- **Mod-Name:** PvZmoD Spawn System  
+- **Kurzbeschreibung:** Ein alternatives Spawn-System, das Zombies dynamisch um Spieler herum und als statische Horden an festgelegten Orten erzeugt. Bietet Wellen-Gefühl, sichere Feuerstellen-Zonen und eine separate Nacht-Spawn-Mechanik auf diversen Karten.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Dynamisches Spawn-System:**  
+  – Zombies erscheinen verstärkt, je weiter man ins Inland vordringt (an der Küste sind es weniger, in Tisy & Co. deutlich mehr).  
+  – Automatische Anpassung der Spawn-Menge an Gruppengröße: Mehr Spieler ≙ mehr Zombies, dabei aber immer überlebbar.  
+  – Fokus-Unter-System: Manche Spieler ziehen mehr Zeds an, andere weniger, um echte Wellen-Gefühle zu erzeugen.  
+  – Lässt sich optional abschalten und stattdessen nur die statischen Spawns nutzen.
+
+- **Statisches Spawn-System (Horden):**  
+  – Vordefinierte Horden spawnen nur, wenn Spieler in die Nähe kommen, und despawnen wieder, wenn alle weg sind (schont Performance).  
+  – Auch in Gebäuden und Stockwerken (Polizei, Kliniken, Feuerwachen) spawnen so Zombies als gezielte Horden.  
+  – Kann Loot-Chests bewachen, um Hochrisiko-Hochleistungs-Loot-Situationen zu schaffen.
+
+- **Sichere Zonen durch Feuerfässer:**  
+  – Aufgestellte Feuerfässer erzeugen kurzzeitig eine „Zombie-Sicherheitszone“ um das Feuer herum.
+
+- **Nacht-Spawn-Anpassung:**  
+  – Separate Einstellungen für Anzahl und Typen der Zombies bei Nacht (z. B. härtere, schnellere Zeds nach Einbruch der Dunkelheit).
+
+- **Skalierung & Komfort:**  
+  – Maximalanzahl von Zeds passt sich automatisch an die Gesamtspielerzahl an.  
+  – Vollständig serverseitig – Spieler bemerken nur das Verhalten, keine zusätzlichen UI-Elemente.
+
+- **Unterstützte Karten:**  
+  – Chernarus, Livonia, Namalsk, Deer Isle, Takistan, Banov (u. a.) out-of-the-box.
+
+## 3. In-Game-Interaktionen
+- **Keine Chat-Commands:** Läuft komplett serverseitig, Spieler haben keine zusätzlichen Befehle.  
+- **Zed-Wellen erleben:**  
+  – Einfach spielen: Je weiter und tiefer man vordringt, desto dichter & aggressiver die Zeds.  
+  – Gruppen spüren individuelle Wellen durch das Fokus-System.  
+- **Horden-Events auslösen:**  
+  – Gehe zu bekannten POIs (Militärbasen, Städte), um statische Horden zu triggern und Loot-Chests zu sichern.  
+- **Sichere Feuerstellen:**  
+  – Stelle Feuerfässer auf, um kurzzeitig Zeds fernzuhalten und dich zu sammeln.  
+- **Nacht-Erfahrung:**  
+  – Zeds werden nach Sonnenuntergang stärker und zahlreicher, ohne dass du manuell etwas einstellen musst.

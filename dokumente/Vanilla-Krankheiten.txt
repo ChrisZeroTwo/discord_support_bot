@@ -1,0 +1,101 @@
+Hier findest du eine ausführliche Übersicht über die wichtigsten Krankheiten in DayZ Standalone, ihre Symptome und die Behandlungsmöglichkeiten:
+
+Cholera
+Ursachen: Trinken von schmutzigem Wasser (Seen, Flüsse, Pfützen, nicht gereinigte Flaschen).
+
+Symptome: Erbrechen (auch beim Essen/Trinken), Fieber, verschwommene Sicht, Zittern, Schmerzen, erhöhter Wasserverbrauch.
+
+Behandlung:
+
+Tetracyclin-Tabletten (Antibiotikum), möglichst vier Stück oder mehr.
+
+Vitamintabletten zur Unterstützung der Heilung.
+
+Während der Krankheit kleine Mengen essen und trinken, um Erbrechen zu vermeiden.
+
+Vorbeugung: Nur abgekochtes, mit Chlor-Tabletten gereinigtes oder Brunnenwasser trinken.
+
+Wundinfektion
+Ursachen: Benutzung von schmutzigen Bandagen, unsauberen Nähkits oder unbehandelten Wunden, Verletzungen durch Zombies.
+
+Symptome:
+
+Phase 1: Schmerzen (Stöhnen), verschwommene Sicht, Erschöpfung, verringerte Lebens- und Ausdauerregeneration.
+
+Phase 2: Zittern, Fieber, Lebensverlust, Dehydration, Tod nach ca. 40 Minuten ohne Behandlung.
+
+Behandlung:
+
+Phase 1: Wunde mit Jod, Kräutertinktur oder Desinfektionsmittel reinigen.
+
+Phase 2: Mehrere Tetracyclin-Tabletten einnehmen, ggf. Wunde erneut desinfizieren.
+
+Vorbeugung: Immer desinfizierte Bandagen/Nähkits verwenden, Wunden niemals unbehandelt lassen.
+
+Lebensmittelvergiftung (Salmonellen)
+Ursachen: Verzehr von rohem Fleisch, verdorbener Nahrung oder Essen mit blutigen Händen.
+
+Symptome: Erbrechen, Dehydrierung, starker Hunger, verschwommene Sicht, Erschöpfung, Schmerzgeräusche.
+
+Behandlung:
+
+Kohletabletten (Aktivkohle).
+
+Vitamine und Immunsystem stärken (viel essen und trinken).
+
+Vorbeugung: Kein rohes oder verdorbenes Essen, Hände vor dem Essen waschen.
+
+Erkältung & Grippe
+Ursachen: Kälte, nasse Kleidung, Kontakt mit infizierten Spielern.
+
+Symptome:
+
+Erkältung: Husten, Niesen.
+
+Grippe: Fieber, Zittern, verschwommene Sicht, erhöhter Ess- und Trinkbedarf.
+
+Behandlung:
+
+Tetracyclin-Tabletten.
+
+Vitamine und Immunsystem stärken (Essen/Trinken-Anzeigen über 2/3 halten).
+
+Am Feuer aufwärmen, nasse Kleidung trocknen.
+
+Vorbeugung: Warm anziehen, nasse Kleidung vermeiden, Vitamine nehmen.
+
+Toxische Vergiftung
+Ursachen: Aufenthalt in toxischen Gaszonen ohne vollständigen Schutzanzug.
+
+Symptome: Blut husten, Erbrechen, Wunden, schneller Lebensverlust.
+
+Behandlung:
+
+PO-X Antidote Auto-Injector (sofort nach Verlassen der Zone verwenden).
+
+Wunden verbinden, ggf. Bluttransfusion mit eigenem, vorher abgezapftem Blut.
+
+Vorbeugung: Nur mit kompletter Schutzausrüstung (Maske, Filter, Schutzanzug) in Gaszonen gehen.
+
+Kuru (Kannibalismus-Krankheit)
+Ursachen: Verzehr von Menschenfleisch, Zombie-Fleisch oder Fleisch infizierter Tiere.
+
+Symptome: Unkontrolliertes Lachen, zitternde Hände, dauerhaftes Krankheitssymbol.
+
+Behandlung: Unheilbar – nur durch Charakter-Neustart entfernbar.
+
+Hämolytische Reaktion
+Ursachen: Falsche Bluttransfusion (inkompatible Blutgruppe).
+
+Symptome: Sofortiger, massiver Lebensverlust, Schockzustand.
+
+Behandlung: Abwarten (meist tödlich), richtige Blutgruppe vorher mit Testkit prüfen.
+
+Zusätzliche Hinweise
+Vitamine helfen, das Immunsystem zu stärken und den Heilungsprozess zu beschleunigen.
+
+Essen und Trinken sollten während einer Krankheit immer im weißen Bereich (über 2/3) gehalten werden, um schneller gesund zu werden.
+
+Hygiene ist essenziell: Hände waschen, saubere Bandagen/Nähkits verwenden, keine rohen Lebensmittel essen.
+
+Diese Übersicht deckt die wichtigsten Krankheiten, Symptome und Behandlungen in DayZ Standalone (Vanilla) ab und hilft dir beim Überleben!

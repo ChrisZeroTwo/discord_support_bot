@@ -1,0 +1,34 @@
+## 1. Überblick
+- **Mod-Name:** RaG BaseItems  
+- **Kurzbeschreibung:** Performance-optimierte Basis- und Dekor-Objekte (Container, Möbel, Lichtquellen, Gramophone etc.) mit Low-Poly-Modellen, interaktiven Open/Close-Sounds und optionaler Code-Lock-Sicherung.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Performance & Optik:**  
+  - Low-Poly-Modelle mit bis zu 6 LOD-Stufen  
+  - Proxy-Attachments blenden sich beim Schließen aus  
+- **Interaktive Behälter & Möbel:**  
+  - Truhen, Türen, Fässer usw. mit eigenen Open/Close-Sounds  
+  - Alle offenen Container schließen sich automatisch beim Server-Restart  
+- **Beleuchtung & Musik:**  
+  - Gramophone mit royalty-free Musik abspielbar  
+  - Laternen leuchten nur nachts  
+- **Kit-Platzierung & Werkbank-Crafting:**  
+  - Die meisten Objekte lassen sich über Kits platzieren  
+  - Fehlt ein Kit, kann man es an der Werkbank herstellen:  
+    - Small Metal Sheet = Hacksaw + Metal Plate  
+    - Small Plastic Sheet = Pliers + beliebiges Plastik  
+- **Code-Lock-Unterstützung:**  
+  - Jeder Open-Container kompatibel mit Codelocks  
+  - Eigene Codelock-Config für Server-Admins
+
+## 3. In-Game-Interaktionen
+- **Mod abonnieren & laden:**  
+  - Über Steam Workshop abonnieren und DayZ neu starten  
+- **Objekte platzieren:**  
+  - Kit im Hotbar aktivieren → Hologramm positionieren → „Benutzen“ drücken  
+- **Werkbank-Crafting:**  
+  - Werkbank öffnen → benötigte Materialien auswählen → Kit craften  
+- **Container öffnen/schließen:**  
+  - Container auswählen → „Benutzen“ drücken; bei verriegelten Containern erst Code-Lock bedienen  
+- **Beleuchtung & Gramophone nutzen:**  
+  - Gegenstand im Inventar auswählen und per „Benutzen“ aktivieren bzw. platzieren  

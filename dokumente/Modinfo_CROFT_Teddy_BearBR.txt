@@ -1,0 +1,19 @@
+## 1. Überblick
+- **Mod-Name:** CROFT Teddy BearBR  
+- **Kurzbeschreibung:** Fügt 23 „Teddy Bear“-Container ins Spiel ein, die Spieler als tragbare Aufbewahrungsbehälter nutzen können.  
+  - 20 normale Bären mit je **15 Slots** und **2 Attachment-Slots**  
+  - 3 VIP-Bären mit je **100 Slots** und **9 Attachment-Slots**  
+  - Normale Bären haben Standard-Haltbarkeit, VIP-Bären eine verbesserte Haltbarkeit  
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Inventar-Container:** Teddy Bears fungieren wie Rucksäcke oder Beutel und schützen Items vor Beschädigung (z. B. vor Zombies oder Loot-Verlust).  
+- **Unterschiedliche Kapazitäten:** Normale Bären eignen sich für mittlere Item-Mengen, VIP-Bären für gehobene Ausrüstung oder größere Vorräte.  
+- **Attachment-Slots:** Ermöglichen das Anbringen kleinerer Werkzeug- oder Ausrüstungs-Teile direkt am Teddy (z. B. Taschenlampen, erste Hilfe-Sets).  
+- **Loot-Spawn:** Dank mitgelieferter Types-Dateien tauchen die Teddy Bears auf allen üblichen Loot-Spawns (Wohnhäuser, Farmen, Industrie) als zufälliger Beute-Fund auf.  
+- **Inventar-Organisation:** Spieler nutzen Teddy Bears, um häufig benötigte Items (Batterien, Verbandszeug, Munition) gebündelt zu transportieren und übersichtlicher zu lagern.  
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln:** Teddy aus der Spielwelt aufheben (über Standard-Interaktionsmenü „Benutzen“ oder Aufheben-Taste).  
+- **Öffnen & Befüllen:** Im eigenen Inventar den Teddy auswählen und per Rechtsklick „Container öffnen“ Items hinein- oder herausziehen.  
+- **Keine zusätzlichen Chat-Commands:** Alle Vorgänge laufen über das normale DayZ-Inventar-UI ab.  
+- **Burying/Despawning:** Wie alle tragbaren Container folgen auch Teddy Bears den Standard-Despawn-Regeln (bleiben bis zu mehreren Stunden bestehen, können aber nicht „gegraben“ werden).  

@@ -1,0 +1,28 @@
+## 1. Überblick
+- **Mod-Name:** WindstridesClothingPack  
+- **Kurzbeschreibung:** Ein umfangreiches Kleidungs- und Ausrüstungs-Pack für DayZ Standalone, das realistische, postapokalyptisch angepasste Kleidung mit verschiedenen Schadenszuständen, LODs, Geschlechter-Modellen und Farb-/Materialvarianten ins Spiel bringt.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Vielzahl an Kleidungsstücken:**  
+  - Oberbekleidung: Poncho, Military Sweater, Layered Shirt, Baseball T-Shirt, Winter Parka  
+  - Unterbekleidung: Leggings, Skinny Jeans, Kneepads Jeans  
+  - Kopfbedeckung & Masken: Shemagh (inkl. Banditen-Wrap), Slouch Hat, Skull Mask, Ragged Eyepatch, Round Glasses  
+  - Handschuhe & Schuhe: Fingerless Gloves, Flip Flops + Socks, Knee High Sneakers, Skate Sneakers  
+- **Schutz & Komfort:**  
+  - Kleidungsteile haben angepasste Wärmeisolations- und Feuchtigkeitswerte (z. B. Winter Parka für besseren Kälteschutz, Leggings mit VarWetMax)  
+  - Schadenszustände und realistische Abnutzung durch Feuchtigkeit und Hitze  
+- **Canvas Backpack & Customization:**  
+  - Canvas Backpack mit Anbring-Slots für Pins und kleine Ausrüstungs-Items  
+  - Pins zum Bekleben für persönliche Gestaltung  
+- **Optik & Immersion:**  
+  - Hochwertige Texturen, mehrere Farb- und Material-Varianten je Item  
+  - Eigene Hand-Profiles für realistischen First-Person-Eindruck  
+
+## 3. In-Game-Interaktionen
+- **Loot & Spawn:**  
+  - Alle Items erscheinen über angepasste Types-Dateien in den Standard-Loot-Tabellen (Wohnhäuser, Farmen, Industrie etc.)  
+- **Ausrüsten & Tragen:**  
+  - Kleidungsstücke im Inventar auswählen und per Rechtsklick bzw. Drag-&-Drop anlegen  
+  - Canvas Backpack öffnet sich wie jeder tragbare Container  
+- **Keine Chat-Commands:**  
+  - Keine neuen Befehle – alles läuft über das DayZ-Inventar- und Aktions-UI  

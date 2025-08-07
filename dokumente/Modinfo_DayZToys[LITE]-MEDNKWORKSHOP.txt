@@ -1,0 +1,19 @@
+## 1. Überblick
+- **Mod-Name:** DayZ Toys [LITE]  
+- **Kurzbeschreibung:** Ein kleines Modpack, das sechs dekorative Spielzeug-Items als neue Loot-Gegenstände ins Spiel bringt: Penguin, Stitch, Giggles, Little Fox, Baby Dragon und Bunny.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Neue Spielzeug-Items:**  
+  - **Penguin** – kleiner Stoffpinguin  
+  - **Stitch** – Anlehnung an das ikonische Alien  
+  - **Giggles** – clownartiges Kuscheltier  
+  - **Little Fox** – süße Fuchs-Figur  
+  - **Baby Dragon** – kleines Drachen-Stofftier  
+  - **Bunny** – klassischer Plüschhase  
+- **Loot-Integration:** Erscheinen zufällig an üblichen Loot-Spawns (Wohnhäuser, Farmen, Kinderspielplätze etc.) und erweitern das Sammelerlebnis.  
+- **Dekorationszweck:** Eignen sich ideal für Basisgestaltung, Rollenspiel oder einfach als Spaßobjekte im Inventar.
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln:** Über das Standard-Interaktionsmenü („Benutzen“/Aufheben).  
+- **Platzieren & Betrachten:** Im Inventar das Spielzeug auswählen und per Rechtsklick oder „Platzieren“ als statische Deko in der Welt ablegen.  
+- **Keine zusätzlichen Befehle:** Läuft komplett über das DayZ-Interaktionssystem, es gibt keine extra Chat-Commands oder Hotkeys.  

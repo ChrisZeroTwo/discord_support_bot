@@ -1,0 +1,16 @@
+GGG Teddy Bears
+
+This mod will bring more teddy bears to the game, and offers the following:
+
+28 New Teddy Bears (16 Storage)
+1 New Belt Item( GGG Teddy Tote, has 36 storage and holds 3 bears)
+1 Teddy Bookcase kit to use as a base storage item(holds 12) and displays them in your base!
+1 set of 3D Glasses also included
+
+Types and classnames are included
+
+Notes:
+Vanilla bears do not work in these
+When disassembling bookcase, remove teddys first.
+Bookcase kit needs to be spun 180degrees before placing kit
+

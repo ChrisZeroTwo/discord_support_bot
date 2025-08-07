@@ -1,0 +1,19 @@
+## 1. Überblick
+- **Mod-Name:** DayZ Expansion AI  
+- **Kurzbeschreibung:** Ergänzt DayZ um komplexe Survivor- und Gegner-NPCs mit eigener KI, die taktisch in Teams agieren, Wegpunkte verfolgen und sowohl im Tag- als auch Nachtbetrieb Befehle umsetzen.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Team- und Formationsverhalten:** NPCs können in Gruppen auftreten, einem Teamleiter folgen und 12 verschiedene Formations-Layouts nutzen.  
+- **Fortbewegung & Interaktion:** KI-Survivors klettern über Hindernisse, öffnen Türen, folgen frei definierbaren Wegpunkten/Patrouillen und können als Fahrgast in Fahrzeugen mitfahren.  
+- **Kampfverhalten:** Engagiert Gegner bis zu 1 000 m Reichweite; Entscheidungsfindung basiert auf Entfernung, Sichtlinie, Waffentyp, Munition und treffsicherheits-Konfiguration in den AISettings.  
+- **Immersive Features:** NPCs können Spieler verspotten (Taunts), mit Taschenlampe und Nachtsicht agieren, lassen sich rekrutieren und fungieren als Wachen zum Schutz von Safe-Zones.  
+- **Modulare Erweiterbarkeit:**  
+  - In Kombination mit **DayZ-Expansion-Market** entstehen handelnde Händler-NPCs.  
+  - Mit **DayZ-Expansion-Quests** werden questgebende NPCs möglich.
+
+## 3. In-Game-Interaktionen
+- **Mod laden:** Über Steam Workshop abonnieren und DayZ neu starten; serverseitig aktivieren.  
+- **Begegnung & Rekrutierung:** Spieler nähern sich einem Survivor-NPC und wählen im Standard-Aktionsmenü („Benutzen“) „Rekrutieren“ oder „Folge mir“.  
+- **Patrouillen beobachten:** Gefolgsleute folgen vorgegebenen Wegpunkten bzw. übernehmen Patrouillenrouten ohne weiteres Eingreifen.  
+- **Fahrzeug-Passagiere:** Mit angelegter Interaktion („Benutzen“) setzen sich NPCs als Passagiere in geeignetes Transportmittel.  
+- **Kein Chat-Commands:** Sämtliche Funktionen laufen über das normale DayZ-UI für Aktionen und Inventar.  

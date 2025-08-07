@@ -1,0 +1,97 @@
+Ausführliche Übersicht: Erste Hilfe und Wundversorgung in DayZ Standalone
+Grundlagen der Ersten Hilfe
+In DayZ Standalone ist die richtige Anwendung von Erste-Hilfe-Maßnahmen entscheidend für das Überleben. Verletzungen können durch Zombies, andere Spieler, Stürze oder Unfälle entstehen. Unbehandelte Wunden und unsachgemäße Versorgung führen zu Infektionen, Blutverlust oder sogar zum Tod.
+
+Verletzungsarten und Sofortmaßnahmen
+1. Blutungen
+
+Symptome: Roter Tropfen im HUD, sichtbares Bluten, rascher Blutverlust (führt zu Ohnmacht oder Tod).
+
+Behandlung:
+
+Sterile Bandagen oder Stofffetzen (aus zerrissener Kleidung) anwenden.
+
+Stofffetzen sollten vor Gebrauch mit Desinfektionsspray oder Alkohol gereinigt werden, um Infektionen zu vermeiden.
+
+Tipp: Blutungen immer sofort stoppen, sonst droht Lebensgefahr.
+
+2. Knochenbrüche
+
+Symptome: Unfähigkeit zu laufen, Kriechen, Schmerzgeräusche.
+
+Behandlung:
+
+Schiene (Splint): Hergestellt aus einem kurzen Stock und Bandage/Stofffetzen.
+
+Morphin-Auto-Injector: Sofortige Heilung des Bruchs, selten zu finden.
+
+3. Bewusstlosigkeit
+
+Symptome: Schwarzer Bildschirm, keine Steuerung möglich.
+
+Behandlung:
+
+Epinephrin-Auto-Injector: Kann bewusstlose Spieler wiederbeleben.
+
+Abwarten: Bei ausreichendem Blutwert wacht der Charakter nach einiger Zeit von selbst auf.
+
+Wundversorgung und Infektionsvermeidung
+1. Wundinfektion
+
+Ursachen:
+
+Verwendung von schmutzigen Bandagen/Stofffetzen.
+
+Wunden nicht behandeln oder Nähen ohne Desinfektion.
+
+Symptome:
+
+Stufe 1: Leicht verschwommene Sicht, Schmerzgeräusche, reduzierte Lebens- und Ausdauerregeneration.
+
+Stufe 2: Fieber, stärkeres Zittern, erhöhter Wasser- und Lebensverlust, Tod nach ca. 40 Minuten ohne Behandlung.
+
+Behandlung:
+
+Stufe 1: Wunde mit Desinfektionsspray, Jod oder Alkoholtinktur reinigen.
+
+Stufe 2: Tetracyclin-Antibiotika einnehmen (mehrere Tabletten, je nach Schwere).
+
+Vorbeugung:
+
+Immer sterile oder desinfizierte Bandagen verwenden.
+
+Wunden nicht unbehandelt lassen.
+
+Vor dem Nähen oder Verbinden Wunde desinfizieren.
+
+Medizinische Ausrüstung und ihre Anwendung
+Gegenstand	Funktion
+Bandage/Stofffetzen	Stoppt Blutungen, Stofffetzen müssen idealerweise desinfiziert werden
+Desinfektionsspray/Alkohol	Reinigt Bandagen, Wunden und Gegenstände
+Schiene (Splint)	Heilt Knochenbrüche
+Morphin-Auto-Injector	Heilt Knochenbrüche sofort
+Epinephrin-Auto-Injector	Belebt bewusstlose Spieler
+Tetracyclin-Tabletten	Behandelt Infektionen und bakterielle Krankheiten
+Vitamintabletten	Stärken das Immunsystem, beugen Krankheiten vor
+Schmerzmittel	Lindern Schmerzen und Zittern
+Kohletabletten	Behandeln Lebensmittelvergiftung
+Blutbeutel + IV-Starterkit	Bluttransfusion bei starkem Blutverlust, Blutgruppe vorher testen!
+Blutverlust und Bluttransfusionen
+Blutverlust kann nur langsam durch Essen/Trinken regeneriert werden.
+
+Bluttransfusionen sind die effektivste Methode, benötigen aber einen Mitspieler, einen Blutbeutel, ein IV-Starterkit und ein Blutgruppentestkit zur Vermeidung von Komplikationen.
+
+Risiko: Falsche Blutgruppe führt zu schwerwiegenden Nebenwirkungen oder Tod.
+
+Praktische Tipps für die Erste Hilfe
+Immer ein Set an Bandagen, Desinfektionsmittel, Schmerzmitteln und Antibiotika mitführen.
+
+Medizinische Vorräte regelmäßig in Krankenhäusern, Kliniken und Ambulanzen suchen.
+
+Nach jedem Kampf oder Unfall sofort auf Verletzungen prüfen und behandeln.
+
+Hygiene ist entscheidend: Schmutzige Bandagen erhöhen das Infektionsrisiko massiv.
+
+Bei Krankheitssymptomen (Krankheitssymbol, Fieber, Zittern) frühzeitig handeln, um schwerwiegende Folgen zu vermeiden.
+
+Mit diesen Kenntnissen bist du in DayZ Standalone bestens auf Verletzungen und Krankheiten vorbereitet und kannst dich oder deine Gruppe effektiv versorgen.

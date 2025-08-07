@@ -1,0 +1,32 @@
+## 1. Überblick
+- **Mod-Name:** Rostowmap  
+- **Kurzbeschreibung:** Eine eigens erstellte, fiktive DayZ-Karte basierend auf echten Satellitendaten und Geländedaten einer Region in Osteuropa. Sie ersetzt die Standard-Map und bietet eine komplett neue Umgebung zum Erkunden.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Kartengröße & Auflösung:**  
+  - Maßstab 14 336 × 14 336 km  
+  - Rastergröße 4048 × 2048 Zellen (Zellengröße 3,5 m)  
+  - Satimage-Bodenbild 14 336 × 14 336 px  
+- **Realistische Topographie:**  
+  - Höhenprofile und Geländeformen aus realen Terrain-Daten  
+  - Natürliche Landschaftsmerkmale (Flüsse, Hügel, Wälder)  
+- **Echtes Straßennetz:**  
+  - Importiertes Straßennetz, das auf realen Karten basiert  
+  - Vernetzte Verkehrswege für Orientierung und Loot-Spawns  
+- **Detailreiche Objektplatzierung:**  
+  - Über 3,5 Millionen Objekte (Gebäude, Bäume, POIs)  
+  - Authentisches Siedlungsbild mit Dörfern, Städten und Industriegebieten  
+- **Erkundungsanreiz:**  
+  - Komplett neue Landkarte fernab von Chernarus  
+  - Abwechslungsreiche Biome und Regionen belohnen Weitwanderer  
+
+## 3. In-Game-Interaktionen
+- **Mod abonnieren & Karte laden:**  
+  - Steam Workshop abonnieren, DayZ neu starten  
+  - Im Hauptmenü als eigene Karte auswählbar  
+- **Spawn & Navigation:**  
+  - Standard-Spawn-Punkte (Küste) oder serverseitig definierte Positionen  
+  - GPS-Koordinaten im Inventar-UI nutzen, um sich auf der Map zu orientieren  
+- **Interaktionen & POIs:**  
+  - Loot, Fahrzeuge und Helischäden wie gewohnt an Häusern, Straßen und Feldern  
+  - Keine zusätzlichen Chat-Befehle oder Custom-UI – alles läuft über das normale DayZ-Interface  

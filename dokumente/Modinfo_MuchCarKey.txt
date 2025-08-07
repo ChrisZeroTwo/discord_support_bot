@@ -1,0 +1,19 @@
+## 1. Überblick
+- **Mod-Name:** MuchCarKey  
+- **Kurzbeschreibung:** Ermöglicht das Sperren und Entsperren beliebiger Fahrzeuge mit individuell zugewiesenen, farbcodierten Schlüsseln, die in-Game handelbar oder in der Welt auffindbar sind.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Farbcodierte Fahrzeugschlüssel:** Mehrere Farben und Beschriftungs-Tags zur einfachen Organisation im Inventar.  
+- **Zuweisung an Fahrzeuge:** Schlüssel in die Hand nehmen, auf ein Fahrzeug mit geschlossenen Türen und Haube zielen und „Schlüssel zuweisen“ wählen. Danach kann derselbe Schlüssel zum Sperren/Entsperren verwendet werden.  
+- **Schlüssel-Duplikation:** Über einen MCK_Grinder (Server-Objekt) kann man nachzugewiesene Schlüssel duplizieren – dabei verschleißt der Ursprungsschlüssel sukzessive.  
+- **Admin-Werkzeuge:**  
+  - **MCK_MasterKey** entsperrt/sperrt jedes Fahrzeug ohne vorherige Zuweisung.  
+  - **MCK_ResetKey** hebt die Zuweisung eines Fahrzeugs zurück (nur bei entsperrtem Fahrzeug).  
+- **Optionale Raid-/Lockpicking-Mechanik:** Serverseitig konfigurierbar, um Spielern das Aufbrechen ohne Schlüssel (z. B. mit einem Lockpick) zu erlauben.
+
+## 3. In-Game-Interaktionen
+- **Schlüssel aufnehmen:** Über das Standard-„Benutzen“ oder Aufheben-Hotkey anheben.  
+- **Fahrzeug sperren/entsperren:** Schlüssel in der Hand, Ansatz am Fahrzeug wählen („Benutzen“).  
+- **Schlüssel duplizieren:** Zu MCK_Grinder gehen, Schlüssel im Inventar ausrüsten und „Grind“-Aktion ausführen.  
+- **Admin-Funktionen nutzen:** MasterKey oder ResetKey wie normale Schlüssel anwenden.  
+- **Keine zusätzlichen Chat-Commands:** Alle Aktionen laufen über das normale DayZ-Interaktions- und Inventarsystem.  

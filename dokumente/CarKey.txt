@@ -1,0 +1,34 @@
+This mod allows you to lock any car, spawned or from trader. The car keys come in several colours and they have a tag for easier organisation. You can sell the keys separately at trader, make them spawn with the car or findable in the world.
+
+FAQ
+Q:How it works?
+Take key in hand, look at car (must have all doors closed and all doors including trunk and hood in the slots). It will give you an option to assign key to car. After assiging key you can use it to lock,unlock the car.
+
+Q:How do you get more copies of a key?
+Server owner can place a MCK_Grinder at places where you can duplicate your key. You can only make duplicates if key was assigned. Your key takes damage each time you make a copy. e.g. 1 key gives you 2 keys before its ruined. then you can turn 2 keys into 4 and so on. You can find a grinder in the fuel station at the traders.
+
+
+Q:Is there raiding available?
+No.
+
+No. Sell it as separate item. And put your vehicles as VNK to not give the trader key.
+
+Lifetime Maintenance
+How does lifetime maintenance work?
+In config there's 2  sets of lifetimes, MaxLifetime and MaxLifetimeWithoutAnyPlayerInteraction
+For MaxLifetimeWithoutAnyPlayerInteraction you should set a lower amount. e.g. if you spawn cars with CE and there's a single car in a very obscure place, you can use this to maintain their lifetime
+For MaxLifetime you should put maximum you ever want cars to be sitting around.
+
+If a player starts a car that doesn't have a key it will set lifetime to MaxLifetimeWithoutAnyPlayerInteraction
+If a player starts a car that had a key assigned, it will set the lifetime to  MaxLifetime
+
+Opening doors, interacting with the car in any other ways other than the ones below won't count towards the lifetime reset
+
+What does reset lifetime?
+- Starting a car
+- Assigning a key
+- Locking the car
+- Unlocking the car
+
+
+I use 5 days without key, 7 days with key. This will ensure active people keep their cars and new ones will come into the world.

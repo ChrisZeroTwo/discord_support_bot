@@ -1,0 +1,27 @@
+## 1. Überblick
+- **Mod-Name:** PvZmoD Customisable Zombies  
+- **Kurzbeschreibung:** Ermöglicht es, sämtliche Eigenschaften von Zombies (Gesundheit, Widerstände, Bewegung, Stärke, Sehdistanz) für verschiedene Zombietypen individuell anzupassen – getrennt für Tag- und Nachtphase, ohne Server-Neustart.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Gesundheit & Widerstände:**  
+  - Tag-/Nacht-HP je Zombiekategorie  
+  - Resistenzen gegen Kugeln, Nahkampf, schwere Angriffe, Fahrzeuge, Explosionen, Headshots, Gas und Hinterhältige Angriffe  
+- **Bewegung & Spawn:**  
+  - Min./Max.-Geschwindigkeit, Crawling-Spawn-Chance oder vollständiges Deaktivieren des Kriechens  
+  - Unterschiedliche Werte für Tag und Nacht  
+- **Angriffsstärke:**  
+  - Anpassbares Schadenstemplate (HP-, Schock-, Ausdauer-, Blut-Schaden), Blutungswahrscheinlichkeit, Block-/Unblocked-Werte  
+  - Rangekompatibel mit Kriech-Zombies, die Schuhe zerstören  
+- **Sehdistanz & Erkennung:**  
+  - Variabler Sichtbereich je nach Tageszeit, blutigen Händen oder geschützter Maske  
+- **Side-Features:**  
+  - Konfigurierbare Nachtzeiten (Beginn/Ende) ohne Beeinflussung des Spiel-Tageszyklus  
+  - Optionaler Faustkampf-Buff: geringerer Schaden, Chance auf leichte Blutung, Handschuh-Abnutzung  
+
+## 3. In-Game-Interaktionen
+- **Anpassung on the fly:**  
+  - XML-Dateien editieren und im Spiel NumPad 4 drücken, um Änderungen sofort zu übernehmen (kein Neustart nötig)  
+- **Admin-Zugriff:**  
+  - Admin-SteamIDs in automatisch erzeugter Profil-Datei hinterlegen  
+- **Keine Spieler-Commands:**  
+  - Alle Mod-Funktionen sind serverseitig und betreffen nur das Zombie-Verhalten; Spieler bemerken die Anpassungen automatisch im Spiel.  

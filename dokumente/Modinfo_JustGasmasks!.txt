@@ -1,0 +1,15 @@
+## 1. Überblick
+- **Mod-Name:** Just Gasmasks!  
+- **Kurzbeschreibung:** Ermöglicht das Betreten toxischer oder gasverseuchter Zonen ohne komplettes NBC-Anzug-Set – eine herkömmliche Gasmaske mit gültigem Filter reicht aus. Funktioniert auf Karten wie Chernarus, Livonia, Namalsk und Banov.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **NBC-Anzug überflüssig:** Spieler benötigen nur eine Gasmaske plus Filter, um in kontaminierte Gebiete zu gehen.  
+- **Vanilla-Masken-Kompatibilität:** Alle Standard-Gas­masken (z. B. GP-5, Combat Gas Mask) und Mods, die `maskbase` implementieren und `IsGasMask()` sowie `HasValidFilter()` zurückliefern, werden unterstützt.  
+- **Filter-Mechanik:** Nutzt die bestehenden Filter-Items (Gas Mask Filter, Improvised Filter). Filter verbrauchen sich wie gewohnt (ca. 12 Min. in PO-X-Gas, 125 Min. außerhalb) und schützen vor Gasvergiftung.  
+- **Realistische Anwendung:** Keine neuen Items oder UI-Elemente, das Mod setzt auf das Standard-Inventarsystem und behält alle Balancing-Werte der Vanilla-Gasmaske bei.
+
+## 3. In-Game-Interaktionen
+- **Mod-Abonnement & Laden:** Über den Steam Workshop abonnieren und DayZ neu starten.  
+- **Gasmaske ausrüsten:** Maske im Inventar anlegen und per Drag-&-Drop oder Rechtsklick einen validen Filter anbringen.  
+- **Filter-Überwachung:** Resthaltbarkeit im Inventar-Icon ablesbar; bei leerem Filter erlischt der Schutz und Gasvergiftung droht.  
+- **Keine Chat-Commands:** Alle Vorgänge laufen über das normale Inventar- und Aktionsmenü („Benutzen“, Rechtsklick).  

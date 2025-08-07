@@ -1,0 +1,19 @@
+## 1. Überblick
+- **Mod-Name:** RaG ChickenCoop  
+- **Kurzbeschreibung:** Ermöglicht es Spielern, Hühnerställe überall auf der Karte nach Loot zu durchsuchen – standardmäßig Eier, Schokoladenhasen und Lebkuchen. In seltenen Fällen können „verrückte“ Hühner auftauchen, die aggressiv werden.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Loot in Hühnerställen:**  
+  - Suche liefert standardmäßig **Egg**, **Chocolate Bunny** und **Gingerbread**.  
+  - Zusätzlicher Loot-Typ **ChickenFeathers** (z. B. Federn) für Crafting oder Dekoration.  
+- **Zufallsmechaniken:**  
+  - **ChanceToGetItems:** Basiswahrscheinlichkeit (default 40 %), dass Standard-Loot erscheint.  
+  - **ChanceToGetFeathers:** Bei Erfolg 50 % Wahrscheinlichkeit für Federn statt Standard-Loot.  
+  - **ChanceToSpawnCrazyChicken:** 10 % Wahrscheinlichkeit, dass ein aggressives Huhn („Crazy Chicken“) erscheint und den Spieler attackiert.  
+- **Überall auf der Karte:** Hühnerställe spawnen identisch in Chernarus, Livonia und anderen Maps, was das Erkunden abseits bekannter POIs belohnt.
+
+## 3. In-Game-Interaktionen
+- **Hühnerstall finden:** Ställe sind an Farmen, Dörfern oder im Wald verteilt.  
+- **Durchsuchen:** Mit dem Standard-Aktionsmenü („Benutzen“) öffnen und Loot entnehmen – je nach Zufall Items, Federn oder ein „Crazy Chicken“.  
+- **Kampf gegen verrücktes Huhn:** Greift ein Crazy Chicken an, nutzt Standard-Waffen oder Nahkampf, um es abzuwehren.  
+- **Keine Chat-Befehle:** Alle Aktionen laufen über das normale Inventar- und Aktionssystem von DayZ.

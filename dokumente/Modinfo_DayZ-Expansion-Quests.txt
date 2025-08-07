@@ -1,0 +1,23 @@
+## 1. Überblick
+- **Mod-Name:** DayZ-Expansion-Quests  
+- **Kurzbeschreibung:** Ein Framework für MMO-ähnliche Quests in DayZ, das verschiedene Objective- und Quest-Typen unterstützt.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Vielfältige Quest-Typen:**
+  - **Action:** Führe bestimmte Aktionen aus, z. B. Schalter betätigen oder Objekte benutzen.  
+  - **Collection:** Sammle vorgegebene Items ein.  
+  - **Delivery:** Liefere Items an NPC oder bestimmten Ort.  
+  - **Target:** Eliminiere definierte Ziele (z. B. NPCs oder Zombies).  
+  - **Travel:** Reise zu bestimmten Positionen oder POIs.  
+  - **Treasure Hunt:** Suche vergrabene Schätze an markierten Stellen.
+- **Erweiterungen durch andere Expansion-Module:**
+  - **Mit Expansion-AI:** AI Camp, AI Patrol, AI Escort (Schutz von NPCs und Kampf-Escorts).  
+  - **Mit Expansion-Groups:** Gemeinsame Gruppenquests mit Quest-Fortschrittsteilung.  
+  - **Mit Expansion-Navigation:** Automatische Markierung von Questzielen auf der Karte.  
+  - **Mit Expansion-Personal-Storage:** Quest-Belohnungen als persönliche Lagergegenstände sperrbar.
+- **Spielerische Relevanz:** Bietet klare Tagesziele, fördert Erkundung, Teamplay und wiederholbare Herausforderungen, steigert Langzeitmotivation und Immersion.
+
+## 3. In-Game-Interaktionen
+- **Quest-Akzeptanz:** Spieler interagieren mit NPCs oder Quest-Boards über die Standard-„Benutzen“-Aktion, um Quests anzunehmen.  
+- **Quest-Abschluss:** Fortschritt wird im Questlog und ggf. durch Map-Marker verfolgt; nach Erfüllung kehrt man zum Questgeber zurück und erhält Belohnungen.  
+- **Keine Chat-Commands:** Sämtliche Abläufe erfolgen über das normale DayZ-Interaktions- und UI-System.  

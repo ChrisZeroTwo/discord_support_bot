@@ -1,0 +1,53 @@
+## 1. Überblick
+- **Mod-Name:** RaG Vehicle Pack  
+- **Kurzbeschreibung:** Fügt zehn neue Fahrzeugtypen ins Spiel ein, die sich in Sitzplatzanzahl, Stauraumvolumen, Farbvarianten und ansteckbaren Modulen unterscheiden.
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **ATV:**  
+  - 2 Sitzplätze  
+  - 300 Slots  
+  - 6 Farben  
+- **Landrover 110:**  
+  - 7 Sitze  
+  - 500 Slots  
+  - 7 Farben  
+  - Anhänge: 3× Holzkiste, Walkie-Talkie (während der Fahrt nutzbar), Kanister, Seetruhe, Ersatzrad  
+- **Humvee:**  
+  - 4 Sitze  
+  - 1000 Slots  
+  - Gepanzert  
+  - Anhänge: Schaufel, Kanister, Erste-Hilfe-Set, Ersatzrad  
+- **Baja Bug:**  
+  - 2 Sitze  
+  - 300 Slots  
+  - Anhänge: 2× Fass, Tarnnetz, Kanister, Ersatzrad  
+- **Derby Car:**  
+  - 2 Sitze  
+  - 400 Slots  
+- **GAZ 69:**  
+  - 6 Sitze  
+  - 500 Slots  
+  - Anhänge: Axt, Kanister, Ersatzrad  
+- **Schoolbus:**  
+  - 15 Rücksitze  
+  - 600 Slots  
+- **MTVR Truck:**  
+  - 14 Rücksitze  
+  - 1000 Slots  
+  - Anhänge: Ersatzrad  
+- **ZIL-130:**  
+  - 14 Sitze  
+  - 600 Slots  
+- **Jeep Willys:**  
+  - 3 Sitze  
+  - 500 Slots  
+  - Anhänge: Kanister  
+- **Kompatibilität:**  
+  - Unterstützt CarCover-Mod (Schutzabdeckungen)  
+  - Verträglich mit Expansion-Keys/Keychains für Schlüsselverwaltung
+
+## 3. In-Game-Interaktionen
+- **Abonnement & Aktivierung:** Über Steam Workshop abonnieren und DayZ neu starten, damit die neuen Fahrzeuge verfügbar werden.  
+- **Fahrzeug-Nutzung:** Einstellen wie bei Vanilla-Fahrzeugen – einsteigen, fahren, Sprit nachfüllen, Anhänge über das Inventarmenü an- oder ablegen.  
+- **Anhänge verwalten:** Im Inventar gewünschtes Modul auswählen und per Drag-&-Drop ans Fahrzeug ziehen bzw. wieder herausnehmen.  
+- **Keine Chat-Commands:** Alle Vorgänge laufen über das Standard-Interaktionssystem und die Fahrzeug-UI.  

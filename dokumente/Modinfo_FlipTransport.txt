@@ -1,0 +1,24 @@
+## 1. Überblick
+- **Mod-Name:** FlipTransport  
+- **Kurzbeschreibung:** Ermöglicht es Spielern, umgefallene Fahrzeuge selbst wieder auf die Räder zu stellen oder sie vorsichtig zu schieben – ganz ohne Server-Tools oder Zelt-Camp.  
+
+## 2. Hauptfunktionen & Gameplay-Relevanz
+- **Fahrzeug-Aufrichten mit dem Schraubenschlüssel:**  
+  – Jeder gängige Wrench (Schraubenschlüssel) kann an einem gekippten Fahrzeug angesetzt werden, um es mit einer einzigen Aktion wieder aufzurichten.  
+- **Hydraulischer Wagenheber & Verkehrshütchen:**  
+  – Der im Mod eingeführte Hydraulic Jack flippt Fahrzeuge ohne Schraubenschlüssel und ohne Zeitverlust.  
+  – Ein Traffic Cone dient als günstiges Hilfsmittel zum Aufrichten, sofern ihr keinen Jack nutzen möchtet.  
+- **Fahrzeug-Schieben:**  
+  – Fahrzeuge können im Leerlauf (Motor aus, Gang auf Neutral) einfach durch Drücken der Vorwärts-/Rückwärts-Taste angeschoben werden.  
+  – Dadurch lässt sich ein liegengebliebenes oder blockiertes Gefährt an eine bessere Position manövrieren.  
+
+## 3. In-Game-Interaktionen
+- **Aufsammeln & Ausrüsten:**  
+  – Schraubenschlüssel, Hydraulic Jack und Traffic Cone findet ihr im üblichen Fahrzeug-Loot (Werkstätten, Garagen).  
+- **Fahrzeug flippen:**  
+  1. Schraubenschlüssel oder Hydraulic Jack im Inventar ausrüsten.  
+  2. Fahrzeug anwählen (Zielen mit Fadenkreuz) und „Benutzen“ drücken – das Fahrzeug springt direkt wieder auf die Räder.  
+- **Fahrzeug schieben:**  
+  1. Motor ausschalten und Gang auf Neutral stellen.  
+  2. Gegen das Fahrzeug laufen bzw. rückwärtslaufen, um es in Fahrtrichtung zu schieben.  
+- **Keine zusätzlichen Chat-Commands:** Alle Aktionen laufen über das normale Interaktions- und Inventar-System von DayZ.  

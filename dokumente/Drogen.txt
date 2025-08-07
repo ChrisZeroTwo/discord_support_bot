@@ -1,0 +1,320 @@
+﻿Hallo! Na klar, das übernehme ich gerne für dich.
+
+Ich habe die von dir bereitgestellten Texte nicht nur ins Deutsche übersetzt, sondern sie auch neu strukturiert und logisch geordnet. Verstreute Informationen, wie die Rezepte für die "Bricks" (Ziegel), habe ich direkt bei den jeweiligen Drogen zusammengefasst. Außerdem habe ich die Informationen zu den Arbeitsstationen in einem eigenen Abschnitt gebündelt, um Redundanzen zu vermeiden.
+
+Diese aufbereitete Struktur sollte es einer KI erheblich erleichtern, die Zusammenhänge zu verstehen und präzise Fragen der Spieler auf deinem Discord-Server zu beantworten. Die technischen Classnames (z.B. iM7s_Ammonia) habe ich beibehalten, da diese für die serverseitige Konfiguration und für erfahrene Spieler relevant sind.
+
+Hier ist der aufbereitete Text:
+
+Strukturierte Daten für den DayZ Drogen-Mod (iM7s_DrugRunning)
+1. Allgemeine Features des Mods
+Dieser Mod erweitert DayZ um folgende Inhalte:
+
+Herstellungsprozesse: Komplexe chemische Herstellung von verschiedenen Drogen.
+
+Anbau:
+
+Indoor- und Outdoor-Anbau von Cannabis.
+
+Anbau von Psilocybin-Pilzkolonien.
+
+Anbau von Koka-Sträuchern.
+
+Drogen & Pharmazeutika:
+
+Pharmazeutika:
+
+Morphin XR Kapseln 100mg (als Flasche & einzelne Pille)
+
+Percocet 30mg (nur als Pille)
+
+Promethazin mit Codein
+
+Pseudoephedrin Tabletten 30mg
+
+Straßendrogen:
+
+Ecstasy (20 Varianten)
+
+Methamphetamin (Blau, Pink, "Peanut Butter")
+
+Kokain
+
+MDMA (als Loot-Gegenstand; kann zur Pillenherstellung verwendet werden)
+
+Spezial-Ausrüstung:
+
+Transporttasche ("Transport Pouch"): Eine spezielle Tasche zum platzsparenden Transport großer Mengen bestimmter Drogen.
+
+2. Anbau & Zucht
+Der Mod führt neue Mechaniken für den Anbau von Pflanzen und Pilzen ein.
+
+2.1 Ausrüstung für den Anbau
+Grow-Zelt (Grow Tent):
+
+Ermöglicht den Indoor-Anbau einer einzelnen Pflanze.
+
+Anleitung:
+
+Finde oder crafte ein Grow-Zelt-Kit.
+
+Platziere das Zelt am gewünschten Ort.
+
+Platziere eine Pflanze im dafür vorgesehenen Slot.
+
+Wässere die Pflanze und warte, bis sie ausgewachsen ist.
+
+Pflanztopf (Grow Pot):
+
+Funktioniert ähnlich wie das Grow-Zelt für den Indoor-Anbau.
+
+Anleitung:
+
+Finde oder crafte ein Pflanztopf-Kit.
+
+Platziere den Topf.
+
+Platziere eine Pflanze im Slot.
+
+Wässern und wachsen lassen.
+
+2.2 Anbaubare Pflanzen
+Cannabis-Sorten:
+
+Gelato
+
+Bay Area Barney (GDP Hybrid)
+
+Blue Cookies
+
+Champagne
+
+Cheetah Piss
+
+Paragon (Forum Cookies x MendoDawg)
+
+Koka-Strauch (Coca Bush):
+
+Die Blätter sind die Grundlage für die Kokainherstellung.
+
+2.3 Pilzzucht (Psilocybin)
+Anleitung:
+
+Du benötigst eine Sporen-Spritze (Spore Syringe). Es gibt 5 Varianten:
+
+Blue Veil
+
+Ghost Caps
+
+Sunspores
+
+Golden Teacher
+
+Mystic Void
+
+Gehe mit der Spritze in der Hand zu einem Gartenbeet (Garden Plot).
+
+"Injiziere" die Sporenkultur in die Erde.
+
+Wässere den befüllten Slot.
+
+Die Pilze benötigen standardmäßig 1 Stunde, um vollständig zu wachsen, können aber schon früher geerntet werden.
+
+3. Arbeitsstationen (Workstations)
+Diese Arbeitsstationen werden für komplexe Herstellungsrezepte benötigt und basieren auf dem IAT_CraftingPlus Framework.
+
+Laborstation (Lab Station):
+
+Zweck: Zur Herstellung von chemischen Drogen wie Methamphetamin.
+
+Kit herstellen: 2x Blech (Sheet Metal) + Metallrohr (Metal Pipe) = Lab Station Kit
+
+Demontage: Schraubendreher + Lab Station = Lab Station Kit
+
+Produktionstisch (Production Table):
+
+Zweck: Zum Verpacken von Drogen in größere Einheiten wie "Bricks" (Ziegel).
+
+Kit herstellen: 2x Blech (Sheet Metal) + Metallrohr (Metal Pipe) = Production Table Kit
+
+Demontage: Schraubendreher + Production Table = Production Table Kit
+
+Pillenpresse (Pill Press):
+
+Zweck: Zur Herstellung von Pillen (z.B. Ecstasy). Verdoppelt den Ertrag im Vergleich zur Handarbeit.
+
+Kann auf den meisten Oberflächen platziert werden.
+
+Chemiefass (Chemical Barrel):
+
+Zweck: Für die komplexe und ertragreichere Herstellung von Kokain.
+
+4. Rezepte & Verarbeitung nach Drogentyp
+4.1 Cannabis
+Cannabisprodukte behalten ihren THC-Gehalt über die meisten Verarbeitungsschritte bei. Dieser Wert ist im Inspektionsmenü sichtbar (Ausnahme: Zips & Bricks).
+
+Verarbeitungsschritte:
+
+Bud Branches (Zweige): Werden direkt von der Pflanze geerntet.
+
+Buds (Knospen): Getrimmte Knospen (ca. 1/2 Unze).
+
+Small Nugs (Kleine Knospen): Zum Drehen von Blunts oder für Bongs.
+
+Zips (Unzen): Eine größere Verkaufseinheit.
+
+Bricks (Ziegel): Die größte Verpackungseinheit.
+
+Rezepte (alle Rezepte erfordern Knospen der gleichen Sorte):
+
+Trimmen (Buds herstellen):
+
+1x Bud Branch + Messer = Buds (Ertrag variiert je nach Sorte; trocknen erhöht den Ertrag).
+
+Small Nugs herstellen:
+
+1x Bud + Messer = 14x Small Nugs
+
+Blunts rollen:
+
+Finde ein Backwoodz 3Pack, um 3 Backwoodz Cigars zu erhalten.
+
+1x Backwoodz Cigar + 3x Small Nugs = 1x Blunt (der Sorte der Nugs).
+
+Zips (Unzen) herstellen:
+
+1x Bud + 1x Bud = 1x Zip
+
+1x Zip + Messer = 2x Buds
+
+Cannabis-Brick herstellen:
+
+Benötigt: Produktionstisch, Klebeband (Duct Tape) oder Ziplock-Beutel.
+
+Anleitung: Platziere insgesamt 16 Buds (8 Stapel à 2 Buds) der gleichen Sorte am Produktionstisch. Mit dem Werkzeug in der Hand erscheint die Herstellungsoption.
+
+4.2 Kokain
+Es gibt zwei Herstellungsmethoden.
+
+Methode 1: Einfache Handarbeit
+
+Ernte Blätter vom Koka-Strauch.
+
+Kokablätter + Aceton = Kokain-Haufen (Coke Pile)
+
+Kombiniere die Haufen zu Kokain-Bündeln (Cocaine Bundles).
+
+Methode 2: Komplexe Methode (Chemiefass) für höheren Ertrag
+
+Benötigt:
+
+Chemiefass (Chemical Barrel)
+
+Schwefelsäure (Sulfuric Acid)
+
+Voller Benzinkanister (Jerry Can of Gasoline)
+
+Kokablätter: 8 Stapel à 15 Stück (getrocknete Blätter ergeben mehr).
+
+Werkzeug: Backpulver (Baking Soda)
+
+Anleitung: Bringe alle Zutaten am Chemiefass an. Mit dem Backpulver in der Hand erscheint die Herstellungsoption.
+
+Kokain-Brick herstellen:
+
+Benötigt: Produktionstisch, Klebeband oder Ziplock-Beutel.
+
+Anleitung: Platziere 5 Kokain-Bündel am Produktionstisch. Mit dem Werkzeug in der Hand erscheint die Option, einen "Kick of Cocaine" (Brick) herzustellen.
+
+4.3 Methamphetamin ("Meth")
+Die Herstellung erfolgt an der Laborstation.
+
+Grundprozess:
+
+Befestige alle benötigten Zutaten an der Laborstation.
+
+Benutze ein Feuerzeug (Lighter) oder einen Bunsenbrenner (Blowtorch) als Werkzeug, um den Kochvorgang zu starten.
+
+Das Ergebnis ist eine Schale (Tray) mit dem gekochten Meth.
+
+1x Tray + Messer/Werkzeug = Lose Kristalle (Shards) (Menge variiert je nach Sorte).
+
+Rezepte (Zutaten für die Laborstation):
+
+Heisenberg Blue:
+
+iM7s_Ammonia, iM7s_Sodium_Hydroxide, iM7s_pseudoephedrine, iM7s_Acetone, iM7s_Hydrofluoric_Acid
+
+Peanut Butter:
+
+iM7s_Ammonia, iM7s_pseudoephedrine, iM7s_Bleach_01, iM7s_Brake_Fluid, iM7s_Battery_Acid_02, iM7s_Ammonium_Nitrate, GasCanister (Propangastank)
+
+Pink Nesquik:
+
+iM7s_Ammonia, iM7s_pseudoephedrine, iM7s_Bleach_02, iM7s_Battery_Acid_01, iM7s_Isopropyl_Alcohol
+
+Weiterverarbeitung:
+
+Bündel: 1x Shard + 1x Shard = Meth Bundle
+
+Pfund: 5x Shards + 5x Shards = Pound
+
+Meth-Brick herstellen:
+
+Benötigt: Produktionstisch, Klebeband oder Ziplock-Beutel.
+
+Anleitung: Platziere 5 Stapel à 20 Shards (Kristalle) des gleichen Typs am Produktionstisch. Mit dem Werkzeug in der Hand erscheint die Herstellungsoption.
+
+4.4 Ecstasy ("Thizz") & MDMA
+Pillen herstellen (zwei Methoden):
+
+Handarbeit:
+
+1x Farbpulver-Beutel + 1x Bindemittel = Farbiger Bindemittel-Beutel
+
+1x MDMA Pack + 1x Farbiger Bindemittel-Beutel = 200 Pillen (50 pro Stanz-Variante der jeweiligen Farbe)
+
+Pillenpresse:
+
+Benötigt: Gleiche Zutaten wie bei der Handarbeit + Rollgabelschlüssel (Wrench) als Werkzeug.
+
+Vorteil: Produziert die doppelte Menge an Pillen (kann serverseitig angepasst werden).
+
+"Thizz"-Bündel herstellen:
+
+Dies ist ein Zwischenschritt zur Herstellung von Ecstasy-Bricks.
+
+Benötigt: Produktionstisch, Klebeband oder Ziplock-Beutel.
+
+Anleitung: Platziere je einen vollen Stapel (50 Pillen) von jeder der 4 Varianten eines Farb-Sets am Produktionstisch. Die Reihenfolge der Slots ist entscheidend!
+
+Lila Set: 1. Bitcoin, 2. Morty, 3. Rolex, 4. Orange Biohazard
+
+Grünes Set: 1. Butterfly, 2. Rick, 3. Playboy, 4. White Spy
+
+Blaues Set: 1. Mitsubishi, 2. Naked Lady, 3. Mac Dre, 4. Pink Discord
+
+Gelbes Set: 1. Round Star, 2. Jake the Dog, 3. Big Bird, 4. Red Che
+
+Ergebnis: 1x "Thizz"-Bündel der entsprechenden Farbe.
+
+Brick-Herstellung:
+
+Ecstasy-Brick:
+
+Benötigt: Produktionstisch, Klebeband oder Ziplock-Beutel.
+
+Anleitung: Platziere 5 "Thizz"-Bündel der gleichen Farbe am Produktionstisch. Mit dem Werkzeug in der Hand die Herstellung starten.
+
+MDMA-Brick:
+
+Benötigt: Produktionstisch, Klebeband oder Ziplock-Beutel.
+
+Anleitung: Platziere 2x MDMA Packs am Produktionstisch. Mit dem Werkzeug in der Hand die Herstellung starten.
+
+5. Spezial-Gegenstände
+Transporttasche ("Thizz Boat Pouch"):
+
+Eine Tasche mit 5 speziellen Slots für "Thizz"-Bündel (insgesamt 1000 Pillen) und zusätzlichem 3x3 Inventarplatz.
+
+Hinweis: Dies ist eine bequeme Transportmethode, aber der Verkaufswert ist wahrscheinlich geringer als der eines vollständig hergestellten Ecstasy-Bricks.

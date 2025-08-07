@@ -1,0 +1,79 @@
+Wasserquellen
+1. Brunnen (Water Pumps)
+
+Die sicherste und zuverlässigste Wasserquelle in DayZ.
+
+In fast jeder Stadt und jedem größeren Dorf zu finden.
+
+Das Wasser aus Brunnen ist immer sauber und kann bedenkenlos getrunken oder in jedem Behälter (Flasche, Kochtopf, Kanister) mitgenommen werden.
+
+Tipp: Fülle bei jedem Brunnenbesuch alle mitgeführten Behälter auf und trinke so viel wie möglich, um den internen Flüssigkeitsspeicher zu maximieren.
+
+2. Seen, Flüsse, Teiche
+
+Überall in der Wildnis vorhanden, besonders nützlich fernab von Städten.
+
+Das Wasser ist nicht sicher: Es besteht ein hohes Risiko, an Cholera zu erkranken, wenn es ungefiltert getrunken wird.
+
+Wasser aus diesen Quellen sollte immer vor dem Trinken gereinigt oder abgekocht werden.
+
+3. Regenwasser
+
+Kann in aufgestellten Fässern gesammelt werden.
+
+Regenwasser in Fässern ist grundsätzlich sicher, sofern das Fass sauber ist.
+
+Das Nachfüllen von Flaschen aus Fässern, die zuvor schmutziges Wasser enthielten, erfordert eine erneute Reinigung mit Chlor-Tabletten.
+
+4. Wassertröge und Tiertränken
+
+Befinden sich auf Bauernhöfen oder in der Nähe von Weiden.
+
+Das Wasser ist nicht mehr sicher (Update 1.21): Es muss wie Flusswasser gereinigt werden.
+
+5. Getränke und Nahrung
+
+Softdrinks, Biermischgetränke und Fruchtsäfte sind immer sicher und stillen auch den Hunger.
+
+Obst und Gemüse liefern ebenfalls Flüssigkeit, reichen aber meist nicht für den dauerhaften Bedarf.
+
+Wasseraufbereitung
+1. Chlor-Tabletten (Water Purification Tablets)
+
+Hauptmethode zur Reinigung von Wasser aus unsicheren Quellen (Flüsse, Teiche, Fässer, Tröge).
+
+Eine Tablette pro Behälter genügt, unabhängig von der Größe (Flasche, Topf, Kanister, Fass).
+
+Nach der Reinigung ist das Wasser sicher trinkbar.
+
+2. Abkochen
+
+Wasser kann im Kochtopf oder in einer Feldflasche am Lagerfeuer abgekocht werden.
+
+Das Abkochen tötet Keime und macht das Wasser sicher trinkbar.
+
+Vorgehen: Wasser in einen Kochtopf füllen, auf ein brennendes Feuer stellen und einige Minuten kochen lassen.
+
+3. Vitamintabletten
+
+Kurzfristig kann das Immunsystem mit Vitamintabletten geboostet werden, sodass auch verseuchtes Wasser ohne sofortige Krankheit getrunken werden kann (Wirkung ca. 5 Minuten).
+
+Keine dauerhafte Lösung, aber hilfreich in Notsituationen.
+
+Risiken und Krankheiten
+Cholera ist die häufigste Folge von ungefiltertem Wasser aus Naturquellen. Symptome sind Erbrechen, Dehydrierung und Schwäche.
+
+Behandlung: Tetracyclin-Tabletten und ausreichend Flüssigkeit.
+
+Flaschen von anderen Spielern immer reinigen, da diese kontaminiert sein können.
+
+Praktische Tipps
+Hände vor dem Trinken immer reinigen, besonders nach Kontakt mit Blut oder toten Tieren, um Infektionen zu vermeiden.
+
+Niemals direkt aus Flüssen, Seen oder von Tiertränken trinken, ohne das Wasser aufzubereiten.
+
+Fülle immer alle Behälter auf, wenn du an einer sicheren Quelle bist, um für Notfälle gewappnet zu sein.
+
+Beim Auffüllen von Flaschen aus unsicheren Quellen: Immer zuerst entleeren und reinigen, bevor neues Wasser eingefüllt wird.
+
+Mit diesen Kenntnissen über Wasserquellen und Wasseraufbereitung bist du in DayZ bestens gegen Dehydrierung und Krankheiten gewappnet!
