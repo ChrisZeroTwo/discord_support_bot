@@ -12,6 +12,9 @@ DEFAULT_ASSISTANT_ID = os.getenv("DEFAULT_ASSISTANT_ID")
 # Datenbank
 DATABASE = 'threads.db'
 
+# Bot-Verhalten
+CONVERSATION_MEMORY_MAX_TOKENS = 2000 # Max Tokens für das Kurzzeitgedächtnis
+
 # OpenAI Client
 # Der API-Schlüssel wird aus der .env-Datei oder der Umgebungsvariable geladen.
 # Wenn kein Schlüssel vorhanden ist, wird der Client nicht initialisiert.

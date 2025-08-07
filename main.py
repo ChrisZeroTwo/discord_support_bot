@@ -22,13 +22,25 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     print(f"✅ {bot.user} ist online!")
-    create_tables()
+    # Datenbank-Setup beim Start
+    with get_db() as conn:
+        # Führe eine einfache Abfrage aus, um zu prüfen, ob die Tabellen existieren.
+        # Dies ist ein einfacher Weg, um festzustellen, ob die DB neu ist.
+        cursor = conn.cursor()
+        try:
+            cursor.execute("SELECT 1 FROM servers LIMIT 1")
+        except sqlite3.OperationalError:
+            # Tabelle existiert nicht, also erstellen wir sie
+            print("Datenbank nicht gefunden, erstelle Tabellen...")
+            create_tables()
+            print("Tabellen erfolgreich erstellt.")
+
     cleanup_support_channels.start()
 
-@tasks.loop(seconds=3600) # Geändert von 60s auf 1h
+@tasks.loop(seconds=3600)
 async def cleanup_support_channels():
     now = datetime.datetime.now(datetime.timezone.utc)
-    delta = datetime.timedelta(hours=1) # Nachrichten älter als 1h löschen
+    delta = datetime.timedelta(hours=1)
 
     with get_db() as conn:
         rows = conn.execute("SELECT support_channel_id FROM servers").fetchall()
@@ -95,12 +107,10 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    # Befehle vor der Setup-Prüfung verarbeiten
     await bot.process_commands(message)
     if message.content.startswith(bot.command_prefix):
         return
 
-    # Prüfen, ob der User im Setup ist
     with get_db() as conn:
         is_in_setup = conn.execute("SELECT 1 FROM setup_sessions WHERE user_id = ?", (message.author.id,)).fetchone()
     if is_in_setup:
@@ -120,72 +130,71 @@ async def on_reaction_add(reaction, user):
         return
 
     with get_db() as conn:
-        # Prüfen, ob es ein registrierter Support-Thread ist
-        is_support_thread = conn.execute(
-            "SELECT 1 FROM threads WHERE discord_thread_id = ? AND guild_id = ?",
-            (channel.id, message.guild.id)
+        bot_message_data = conn.execute(
+            "SELECT message_id, thread_id, content, reported FROM conversation_history WHERE discord_message_id = ?",
+            (message.id,)
         ).fetchone()
-        if not is_support_thread:
-            return
 
-        # Prüfen, ob die Nachricht vom Bot ist und eine Interaktion hat
-        interaction = conn.execute(
-            "SELECT 1 FROM interactions WHERE bot_message_id = ?", (message.id,)
-        ).fetchone()
-        if not interaction:
-            return
+    if not bot_message_data:
+        return
 
-    # Reaktion in Statistiken aufzeichnen
     emoji_map = {"👍": "helpful", "👎": "bad", "❌": "bad"}
     if str(reaction.emoji) in emoji_map:
         record_reaction(message.guild.id, emoji_map[str(reaction.emoji)])
 
     if reaction.emoji == "❌":
-        with get_db() as conn:
-            already_reported = conn.execute(
-                "SELECT 1 FROM reported_interactions WHERE bot_message_id = ?", (message.id,)
-            ).fetchone()
-
-        if already_reported:
+        if bot_message_data['reported']:
             await message.channel.send(f"Diese Antwort wurde bereits gemeldet.", delete_after=10)
             return
 
+        with get_db() as conn:
+            # Finde die letzte User-Frage im selben Thread vor der Bot-Antwort
+            user_question_data = conn.execute(
+                """
+                SELECT content, role, timestamp FROM conversation_history
+                WHERE thread_id = ? AND role = 'user' AND timestamp < (
+                    SELECT timestamp FROM conversation_history WHERE message_id = ?
+                )
+                ORDER BY timestamp DESC
+                LIMIT 1
+                """,
+                (bot_message_data['thread_id'], bot_message_data['message_id'])
+            ).fetchone()
+
+            # Finde die ursprüngliche User-ID aus der Thread-Tabelle
+            thread_owner_data = conn.execute(
+                "SELECT user_id FROM threads WHERE discord_thread_id = ?", (bot_message_data['thread_id'],)
+            ).fetchone()
+
+        if not user_question_data or not thread_owner_data:
+            await message.channel.send("Fehler: Konnte den ursprünglichen Kontext nicht finden.", delete_after=10)
+            return
+
         ctx = await bot.get_context(message)
-        await report_bad_response(ctx, bot, message.id, user.id)
+        await report_bad_response(
+            ctx,
+            bot,
+            question=user_question_data['content'],
+            response=bot_message_data['content'],
+            original_user_id=thread_owner_data['user_id'],
+            reporting_user_id=user.id
+        )
 
         with get_db() as conn:
-            conn.execute(
-                "INSERT INTO reported_interactions (bot_message_id, reported_by_user_id) VALUES (?, ?)",
-                (message.id, user.id)
-            )
+            conn.execute("UPDATE conversation_history SET reported = 1 WHERE message_id = ?", (bot_message_data['message_id'],))
             conn.commit()
 
-        await message.channel.send(
-            f"✅ Danke für dein Feedback, {user.mention}! Wir kümmern uns darum.",
-            reference=message
-        )
+        await message.channel.send(f"✅ Danke für dein Feedback, {user.mention}! Wir kümmern uns darum.", reference=message)
 
     elif reaction.emoji == "👍":
-        await message.channel.send(
-            f"👍 Danke für dein positives Feedback, {user.mention}!",
-            reference=message,
-            delete_after=10
-        )
+        await message.channel.send(f"👍 Danke für dein positives Feedback, {user.mention}!", reference=message, delete_after=10)
 
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):
-        await ctx.send(embed=discord.Embed(
-            description="❌ Du hast keine Berechtigung, diesen Befehl auszuführen.",
-            color=STRONG_PINK
-        ))
+        await ctx.send(embed=discord.Embed(description="❌ Du hast keine Berechtigung, diesen Befehl auszuführen.", color=STRONG_PINK))
     else:
-        # Log other errors to console for debugging
         print(f"Ein Fehler ist im Befehl '{ctx.command}' aufgetreten: {error}")
-        await ctx.send(embed=discord.Embed(
-            title="Fehler",
-            description="Es ist ein unerwarteter Fehler aufgetreten.",
-            color=STRONG_PINK
-        ))
+        await ctx.send(embed=discord.Embed(title="Fehler", description="Es ist ein unerwarteter Fehler aufgetreten.", color=STRONG_PINK))
 
 bot.run(DISCORD_TOKEN)

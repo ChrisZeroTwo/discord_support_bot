@@ -34,14 +34,16 @@ def create_tables():
                 bad INTEGER DEFAULT 0
             )
         """)
-        # Neue Tabelle für das Tracking von Interaktionen (für Feedback)
+        # Neue Tabelle für den Konversationsverlauf (ersetzt 'interactions')
         conn.execute("""
-            CREATE TABLE IF NOT EXISTS interactions (
-                bot_message_id INTEGER PRIMARY KEY,
-                user_id INTEGER NOT NULL,
+            CREATE TABLE IF NOT EXISTS conversation_history (
+                message_id INTEGER PRIMARY KEY AUTOINCREMENT,
                 thread_id INTEGER NOT NULL,
-                question TEXT NOT NULL,
-                bot_response TEXT NOT NULL,
+                discord_message_id INTEGER UNIQUE,
+                role TEXT NOT NULL, -- 'user' oder 'assistant'
+                content TEXT NOT NULL,
+                token_count INTEGER,
+                reported INTEGER DEFAULT 0, -- 0 for false, 1 for true
                 timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         """)
@@ -52,14 +54,6 @@ def create_tables():
                 guild_id INTEGER NOT NULL,
                 current_step TEXT,
                 started_at DATETIME DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
-        # Neue Tabelle für gemeldete Interaktionen
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS reported_interactions (
-                bot_message_id INTEGER PRIMARY KEY,
-                reported_by_user_id INTEGER NOT NULL,
-                reported_at DATETIME DEFAULT CURRENT_TIMESTAMP
             )
         """)
         conn.commit()
